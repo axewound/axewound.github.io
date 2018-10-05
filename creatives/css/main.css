@@ -1,0 +1,508 @@
+header{
+	background: url(../img/header.png) no-repeat center top/cover ;/*center по центру экрана, top/cover растягивает по высоте и высоте.*/
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Myriad Pro, sans-serif;
+}
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.container h2{
+	text-transform: uppercase;
+}
+h2{
+	 letter-spacing:3px;
+	 font-size: 32px;
+}
+*{
+	margin:0;
+	padding: 0;
+}
+div {
+	box-sizing: border-box;
+}
+.logo{
+	margin-top: 23px;
+	float: left;
+}
+nav {
+	float: right;
+	margin-top: 45px;
+}
+.menu{
+	display: block;
+}
+.menu li{
+	float: left;
+	display: block;
+	margin-left: 45px;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.menu li:nth-child(6){
+	margin-right: 0px;
+}
+.menu li:nth-child(1){
+	margin-left: 70px;
+}
+.iconMenu{
+	float: left;
+}
+.iconMenu li {
+	margin-left: 25px;
+}
+.iconMenu img {
+	margin-left: 2px;
+	text-align: center;
+}
+
+/* 
+.menu:hover .hr{
+	width: 100%;
+	margin-top: 27px;
+	height: 9px;
+	background: #11749e;
+	margin-bottom: 180px;
+} */
+
+
+/* .hr{
+	width: 100%;
+	margin-top: 27px;
+	height: 9px;
+	background: #11749e;
+	margin-bottom: 180px;
+}
+ */hr{
+	position: absolute;
+	background: #737373;
+	height: 1px;
+	margin-top: 104px;
+	width: 100%;
+	border: none;
+}
+
+
+
+
+
+
+
+
+h3{
+	 letter-spacing:2px;
+}
+.Creatives{
+	font-size: 150px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px auto;
+	font-weight: bold;
+	padding-top: 295px;
+}
+h1{
+	font-size: 25px;
+	color: #11749e;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 18px;
+	margin: 0px;
+}
+.buttonCircle a{
+    height: 65px;
+    display: block;
+    width: 65px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.buttonCircle{
+	padding-top: 90px;
+	padding-bottom: 150px;
+}
+.buttonCircle img{
+	border-radius: 50%;
+}
+/*---------------------------------------------------------------------------------------------*/
+.sectionOne{
+	background: #11749e;
+	padding-bottom: 100px;
+}
+.headlineText{
+	padding:150px 0 0 0; 
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+.imgDivBlock{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -70px;
+    text-align: center;
+    display: block;
+}
+.boxFourAll{
+	margin-top: 120px;
+}
+.subBlock h3{
+	text-transform: uppercase;
+	color: white;
+	letter-spacing:2px;
+	padding:15px 0;
+	font-weight:550; 
+}
+.subBlock img{
+	border-radius: 50%;
+}
+.subBlock{
+	width: 270px;
+	text-align: center;
+	float: left;
+	display: inline-block;
+	margin-left: 22px;
+}
+.subBlock p{
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    width: 237px;
+    margin: 0 auto;
+}
+.subBlock a{
+	height: 133px;
+    display: block;
+    width: 133px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.subBlock:last-child{
+	float: right;
+}
+/*---------------------------------------------------------------------------------------------*/
+.LeftRight h3{
+	text-transform: uppercase;
+}
+.RightFirst{
+	padding-top: 450px;
+	width: 50%;
+	background: url(../img/right.png) no-repeat center top/cover ;
+	float: right;
+	height: 450px;
+}
+.RightSecond{
+	padding-top: 450px;
+	width: 50%;
+	background: url(../img/left.png) no-repeat center top/cover ;
+	float: left;
+	height: 450px;
+}
+.LeftFirst{
+	float: left;
+	color: white;
+	width: 50%;
+	background: #222222;
+	height: 450px;
+}
+.LeftSecond{
+	float: right;
+	color: #222;
+	width: 50%;
+	background: #f3f3f3;
+	height: 450px;
+}
+ .blockInformation{
+	float: left;
+	padding-left: 80px;
+	font-size: 100vh;
+	width: 500px;
+}
+.containerContent{
+	margin:0 auto;
+	float: right;
+	margin-right: 160px;
+}
+.sectionThwo h4{
+	font-size: 12px;
+	margin-top: 70px;
+}
+.sectionThwo h3{
+	font-size: 25px;
+	margin:10px 0 18px 0;
+}
+.sectionThwo p{
+	font-size: 15px;
+	width: 420px;
+	line-height: 1.5;
+}
+.sectionThwo {
+    padding-bottom: 900px;
+}
+/*---------------------------------------------------------------------------------------------*/
+.sectionThree{
+	margin-bottom: 100px;
+}
+.letterB{
+    margin-left: 528px;
+    margin-top: -68px;
+}
+.LetsBlog{
+	color: #222222;
+}
+.LetsBlog h3{
+	font-size: 23px;
+    margin-top: 90px;
+    margin-bottom: 45px;
+    font-weight: 500;
+}
+.imgBlockBlog h3{
+	color: #11749e;
+	font-size: 16px;
+	margin:15px 0;
+}
+.imgBlockBlog p{
+	color: #222222;
+	font-size: 14px;
+	line-height: 1.5;
+}
+.imageBlock h3{
+	text-transform: uppercase;
+}
+.imageBlock{
+	float: left;
+	text-align: center;
+	width: 275px;
+	margin-right: 23px;
+}
+.imageBlock:last-child{
+	float: right;
+	margin-right: 0px;
+}
+/*---------------------------------------------------------------------------------------------*/
+.sectionFourth{
+	background: #11749e;
+	padding-bottom: 150px;
+}
+.blockEditor{
+	width: 570px;
+	float: left;
+	margin-top: 110px;
+}
+.blockEditor img{
+	float: left;
+}
+.blockEditor p{
+	color: white;
+	font-size: 15px;
+	width: 405px;
+	float: left;
+	margin-left: 30px; 
+	line-height:1.5;
+}
+.blockEditor:nth-child(2){
+	float: right;
+	width: 505px;
+}
+/*---------------------------------------------------------------------------------------------*/
+.sectionFifth{
+	background: url(../img/photoTelephone.png) no-repeat center top/cover ;
+}
+.FHD{
+	color: white;
+	font-size: 15px;
+}
+.FHD h4{
+	padding: 10px;
+	font-size: 14px;
+}
+.textFHD{
+	background: #11749e;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.TextPhone{
+	float: left;
+	width: 50%;
+	margin-top: 220px;
+	color: white;
+}
+.PhoneImg{
+	float: right;
+	width: 50%;
+}
+.PhoneImg img{
+	float: right;
+	margin-left: 70px;
+	padding-bottom: 140px;
+	margin-top: 100px;
+}
+.TextPhone h3{
+	text-transform: uppercase;
+	margin-bottom: 20px; 
+	font-weight: bold;
+}
+.TextPhone p{
+    font-size: 12px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    width: 305px;
+    font-family: Myriad Pro;
+}
+/*---------------------------------------------------------------------------------------------*/
+.subsectionSixth h2{
+	color: black;
+}
+.subsectionSixth h3{
+	color: #222222;
+	margin-top: 100px;
+	font-size: 23px;
+    margin-bottom: 45px;
+    font-weight: 500;
+}
+.imgT{
+	margin-left: 528px;
+ 	margin-top: -68px;
+}
+.profile{
+	float: left;
+	margin-left: 30px;
+}
+.profile:last-child{
+	float: right;
+}
+.profile:first-child{
+	margin-left: 0px;
+}
+.info{
+	text-align: center;
+	width: 215px;
+	height: 110px;
+	background: white;
+	position: relative;
+	top: -50px;
+	left:25px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.info h4{
+	text-transform: uppercase;
+	color:#11749e;
+	font-size: 18px;
+	font-weight:normal;
+	padding: 30px 0 10px 0;
+}
+.info p{
+	color:#222;
+	font-size: 14px;
+}
+/*---------------------------------------------------------------------------------------------*/
+.sectionSeventh{
+	background: url(../img/Layer.png) no-repeat center top/cover;
+	padding-bottom: 100px;
+}
+.subsectionSeventh{
+	margin-bottom: 100px;
+}
+input[type="text"], input[type="password"],input[type="tel"],input[type="email"],textarea{
+	width: 300px;
+	height: 45px;
+	font-size: 15px;
+	padding-left: 20px;
+	margin-left: 95px;
+	color: white;
+	border: 1px solid white;
+	background-color: transparent;
+}
+input[type="text"]{
+	float: left;
+	margin-left: 0px;
+}
+input[type="tel"]{
+	float: right;
+	margin-right: 0px;
+}
+.input {
+  @include placeholder {
+    color: #aaa;
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+  
+  &:focus {
+    @include placeholder {
+      opacity: 0;
+    }
+  }
+}
+	::-webkit-input-placeholder {color:#fff;}
+	::-moz-placeholder          {color:#fff;}
+	:-moz-placeholder           {color:#fff;}
+	:-ms-input-placeholder      {color:#fff;}
+.submit{
+	background: #11749e;
+	color: white;
+	font-size: 24px;
+	text-transform: uppercase;
+	padding: 15px 65px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+}
+.SubmitClick{
+	text-align: center;
+	margin-top: 45px;
+}
+textarea{
+	width: 1150px;
+    height: 150px;
+    resize: none; 
+    margin-left: 0px;
+    margin-top: 45px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+/*---------------------------------------------------------------------------------------------*/
+
+
+ #map {
+        height: 335px;
+      }
+
+
+/*---------------------------------------------------------------------------------------------*/
+footer{
+	background: #222222;
+	color: white;
+	font-size: 13px;
+}
+.footerText{
+	float: left;
+	margin-top: 10px;
+}
+.blockFooter img{
+	float: right;
+}
+.blockFooter{
+	padding: 40px 0;
+}
+
+
+
+
+
+
+
+
+
