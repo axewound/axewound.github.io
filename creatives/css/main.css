@@ -5,6 +5,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: Myriad Pro, sans-serif;
+    min-width: 1280px;
 }
 .clearfix:after {
 	content:'';
@@ -51,6 +52,15 @@ nav {
 	text-decoration: none;
 	font-size: 20px;
 }
+.menu a:hover {
+	border-bottom-color: #11749e; /* Цвет линии справа */
+    border-bottom-style: solid; /* Стиль линии */
+    border-bottom-width: 9px; /* Толщина линии */
+	padding-bottom: 28px;
+}
+.iconMenu a:hover {
+	border-bottom: none; /* Цвет линии справа */
+}
 .menu li:nth-child(6){
 	margin-right: 0px;
 }
@@ -67,40 +77,15 @@ nav {
 	margin-left: 2px;
 	text-align: center;
 }
-
-/* 
-.menu:hover .hr{
-	width: 100%;
-	margin-top: 27px;
-	height: 9px;
-	background: #11749e;
-	margin-bottom: 180px;
-} */
-
-
-/* .hr{
-	width: 100%;
-	margin-top: 27px;
-	height: 9px;
-	background: #11749e;
-	margin-bottom: 180px;
-}
- */hr{
+ hr{
 	position: absolute;
 	background: #737373;
 	height: 1px;
 	margin-top: 104px;
 	width: 100%;
 	border: none;
+	min-width: 1280px;
 }
-
-
-
-
-
-
-
-
 h3{
 	 letter-spacing:2px;
 }
@@ -474,13 +459,9 @@ textarea{
     padding-top: 15px;
 }
 /*---------------------------------------------------------------------------------------------*/
-
-
- #map {
+#map {
         height: 335px;
-      }
-
-
+}
 /*---------------------------------------------------------------------------------------------*/
 footer{
 	background: #222222;
