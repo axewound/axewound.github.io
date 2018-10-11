@@ -358,6 +358,9 @@ table p{
 table span{
 	color: #008ed6;
 }
+.sectionSix .button a{
+	color: #6bb0e1;
+}
 .sectionSix .button{
 	border:1px solid #e0e0e0;
 	background: #fff;
