@@ -365,7 +365,7 @@ table span{
 	margin: 0 auto;
 	margin-bottom: 28px;
 }
-table tr:nth-child(2):hover{
+table:hover :nth-child(2){
 	background: #008ed6;
 	color: #fafafa;
 }
@@ -376,6 +376,8 @@ table:hover .button{
 }
 table :hover h6{
 	color: #fff;
+	 font-weight: 500;
+	 margin-left: 1px;
 }
 table :hover h4{
 	color: #008ed6;
