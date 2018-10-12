@@ -302,6 +302,7 @@ hr{
 .sectionSix font a{
 	padding: 0;
 	border: none;
+	display: inline-block;
 }
 /*------------------------------------------------------------------------------*/
 .sectionSeven{
