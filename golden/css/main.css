@@ -256,7 +256,7 @@ hr{
 	color: #000;
 	border:2px solid #000;
 	border-radius: 4px;
-	width: 75px;
+	
 	opacity: 100;
 	text-align: center;
 	margin:0 auto; 
@@ -279,7 +279,7 @@ hr{
 }
 .sectionSix font a{
 	color: #2490af;
-	margin-bottom: 130px;
+	
 }
 .sectionSix p{
 	text-align: center;
@@ -299,6 +299,11 @@ hr{
 .sectionSix .button{
 	font-size: 20px;
 	padding: 14px 1rem;
+}
+.sectionSix font a{
+	padding: 0;
+	border: none;
+	
 }
 /*------------------------------------------------------------------------------*/
 .sectionSeven{
