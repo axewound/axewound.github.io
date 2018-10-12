@@ -354,7 +354,6 @@ h1{
 	margin-top: 100px;
 	font-size: 23px;
     margin-bottom: 45px;
-    font-weight: 500;
 }
 .imgT{
 	margin-left: 528px;
@@ -431,6 +430,26 @@ input[type="tel"]{
     }
   }
 }
+input[type="text"]{
+	margin-left: 0px;
+}
+
+@-webkit-keyframes autofill {
+    to {
+        color: #fff;
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+	::-webkit-input-placeholder {color:#444348; text-transform: uppercase;}
+	::-moz-placeholder          {color:#444348; text-transform: uppercase;}
+	:-moz-placeholder           {color:#444348; text-transform: uppercase;}
+	:-ms-input-placeholder      {color:#444348; text-transform: uppercase;}
+
 	::-webkit-input-placeholder {color:#fff;}
 	::-moz-placeholder          {color:#fff;}
 	:-moz-placeholder           {color:#fff;}
