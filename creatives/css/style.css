@@ -376,20 +376,12 @@ margin-left: 0px;
 	text-align: center;
 	margin: 0 auto;
 	border-radius: 0px;
-	margin-top: 45px;
 	text-transform: uppercase;
-	
-	height: 60px;
-}
-form h4{
+	padding: 10px 55px 19px;
 	font-size: 24px;
-	padding-top: 10px;
-	color: #fff;
-	letter-spacing: 4px;
-	text-align: center;
-	margin: 0 auto;
-	width: 200px;
+	margin-top: 45px;
 }
+
 .map {
   	height: 335px;
   	background:url(../img/Layer98.png) no-repeat center top/cover;
