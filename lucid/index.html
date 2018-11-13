@@ -11,7 +11,7 @@
 </head>
 <body>
 	<header>
-		<div class="container">
+		<div class="container ">
 			
 				<nav class="navbar navbar-expand-lg navbar-light ">
     <div class="d-flex flex-grow-1">
@@ -51,23 +51,28 @@
         </ul>
     </div>
 </nav>
-			<div class="title row">
-                <div class="title_text col-lg-5 col-xl-6 col">
+			<div class="title row ">
+                <div class="title_text col-lg-5 col-xl-6 col-lg-12 text-center text-lg-left">
                     <h6>INTRODUCING LUCID THEME</h6>
                     <h1>Carefully crafted and beautiful landing page.</h1>
                     <p>Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus mi, at elementum magna ultricies accumsan. Cras venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.</p>
-                    <div class="row">
+                    <div class="row d-flex justify-content-lg-start justify-content-center">
                         <button class="title-button title-button-first btn btn-primary" type="submit">download now</button>
                         <button type="button" class="title-button btn btn-outline-primary">view features</button>
                     </div>
                 </div>
                 <div class="telephone col col-lg-7 col-xl-6">
-                    <img src="img/telephone.png" class="img-fluid rounded">
+                     <figure>
+   <img src="img/telephone.png" class="img-fluid rounded" style="display: block;">
+   
+   </figure>
+                    
                 </div>
             </div>	
 			
 		</div>
 	</header>
+
     <section class="section-first">
         <div class="container">
             <div class="mini-title">
@@ -104,20 +109,32 @@
         <div class="container">
         <div class="row section-second-description">
            
-            <img src="img/telephone.png" class=" col-6 section-second-telephone">
+            <img src="img/telephone.png" class="img-fluid telephone1 col-6 section-second-telephone ">
         <div class="section-second-title  col-6">
             <h2 class="h2-left">dip into the details</h2>
             <h1>Beautiful on every device</h1>
             <hr class="hr-left">
             <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
-            <nav>
-            <ul class="section-second-menu">
-                <li><img src="img/Cup.png">Awesome design</li>
-                <li><img src="img/Mouse.png">Fully responsive</li>
-                <li><img src="img/Energy.png">Retina ready </li>
-                <li><img src="img/Speedometer.png">Tons of features and easy to use</li>
-            </ul>
-        </nav>
+            <table>
+            <tbody>
+            <tr>
+                <td><img src="img/Cup.png"></td>
+                <td>Awesome design</td>
+            </tr>
+            <tr>
+                <td><img src="img/Mouse.png"></td>
+                <td>Fully responsive</td>
+            </tr>
+            <tr>
+                <td><img src="img/Energy.png"></td>
+                <td>Retina ready<td> 
+            </tr>
+            <tr>
+                <td><img src="img/Speedometer.png"></td>
+                <td>Tons of features and easy to use</td>
+            </tr>
+        </tbody>
+    </table>
         </div>
     
     </div>
@@ -127,14 +144,16 @@
         <div class="container">
             <div class="row section-third-description">
                 
-                    <div class="section-third-title col-6">
+                    <div class="section-third-title col-sm-6 col-lg-6 col-md-6 col-xl-6 col">
                     <h2 class="h2-left">dip into the details</h2>
                     <h1>Super easy to customize</h1>
                     <hr class="hr-left">
                     <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                      </div>
-                    <img src="img/iPhone5.png" class="iphone col-6">
-      
+                    <!--  <div class="col-sm-6 col-xl-6 col-md-6 col-lg-6 col"> -->
+                    <img src="img/iPhone5.png" class="iphone col-sm-6 col-lg-6 col-md-6 col-xl-6 col  img-fluid">
+                    <!-- </div> -->
+
                
            
             </div>
@@ -262,12 +281,17 @@
    <section class="section-five">
        <div class="container">
            <div class="row ">
-               <div class="col-8 d-flex align-items-center">
-                   <h3>Like what you see?<span> Get this great theme now!</span></h3>
+               <div class=" col-12 col-lg-8 d-flex align-items-center">
+                   <h3>Like what you see?<small class= " ml-2 text-muted">Get this great theme now!</small></h3>
                </div>
-               <div class="col-4 d-flex align-items-center justify-content-center">
-                   <button type="button" class="btn btn-secondary btn-lg">download now</button>
-                   <button type="button" class="btn btn-primary btn-lg">view features</button>
+               <div class="col-12 col-lg-4  d-flex align-items-center justify-content-center">
+   
+      
+                     <button type="button" class="col  btn btn-secondary btn-lg">download now</button>
+
+                       <button type="button" class="col btn btn-primary btn-lg">view features</button>
+
+                </div>   
                        
                </div>
            </div>
@@ -363,15 +387,15 @@
                 <div class="row">
                     <div class="section-seven-form col">
                         <form>
-                            <input type="text" class="form-control " placeholder="Имя">
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-                            <input type="text" class="form-control" placeholder="Фамилия">
+                             <input type="text" class="form-control " placeholder="Name">
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email">
+                            <input type="text" class="form-control" placeholder="Subject">
                     </div>
                     <div class="col">
                         <textarea class="form-control " id="exampleFormControlTextarea1" rows="3" ></textarea>
                     </div>
                 </div>
-                <button class="section-seven-form-title-button title-button title-button-first btn btn-primary " type="submit">send message</button>
+                <button class="section-seven-form-title-button title-button title-button-first btn btn-primary " type="submit"  placeholder="Massege">send message</button>
                  </div>
                   </div>
                         </form>
