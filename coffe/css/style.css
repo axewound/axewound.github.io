@@ -1,0 +1,415 @@
+@font-face{
+font-family: 'GothamPro';
+src: url('../fonts/GothamPro.eot');
+src: url('../fonts/GothamPro.eot?iefix') format('eot'),
+url('../fonts/GothamPro.woff') format('woff'),
+url('../fonts/GothamPro.ttf') format('truetype'),
+url('../fonts/WebFont.svg#webfont') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+  font-family: 'Verdana';
+  src: url('../fonts/GothamPro/GothamPro-Italic.ttf') format('truetype');
+
+}
+@font-face{
+font-family: 'GothamPro-italic';
+src: url('../fonts/GothamPro/GothamPro-Italic.eot');
+src: url('../fonts/GothamPro/GothamPro-Italic.eot?iefix') format('eot'),
+url('../fonts/GothamPro/GothamPro-Italic.woff') format('woff'),
+url('../fonts/GothamPro/GothamPro-Italic.ttf') format('truetype'),
+url('../fonts/GothamPro/GothamPro-Italic.svg#webfont') format('svg');
+font-weight: bold;
+font-style: italic;
+}
+@font-face{
+font-family: 'GothamPro-bold';
+src: url('../fonts/GothamPro/GothamPro-Bold.eot');
+src: url('../fonts/GothamPro/GothamPro-Bold.eot?iefix') format('eot'),
+url('../fonts/GothamPro/GothamPro-Bold.woff') format('woff'),
+url('../fonts/GothamPro/GothamPro-Bold.ttf') format('truetype'),
+url('../fonts/GothamPro/GothamPro-Bold.svg#webfont') format('svg');
+font-weight: bold;
+font-style: normal;
+}
+@font-face{
+font-family: 'GothamPro';
+src: url('../fonts/WebFont-Italic.eot');
+src: url('../fonts/WebFont-Italic.eot?iefix') format('eot'),
+url('../fonts/WebFont-Italic.woff') format('woff'),
+url('../fonts/WebFont-Italic.ttf') format('truetype'),
+url('../fonts/WebFont-Italic.svg#webfont') format('svg');
+font-weight: normal;
+font-style: italic;
+}
+header{
+	background: #fff;
+}
+body {
+    padding: 0;
+    margin: 0;
+
+    min-width: 100%;
+}
+*{
+	margin:0;
+	padding: 0;
+}
+div {
+	box-sizing: border-box;
+}
+.container{
+	   padding-right: 0px !important;
+	       padding-left: 0px !important;
+
+}
+.nav-item a{
+    font-weight: 500;
+	font-size: 14px;
+	color: #191919  !important;
+    text-decoration: none;
+    letter-spacing: 0.07em;
+}
+
+.nav-item a:hover{
+
+	color: #8b6f4e  !important;
+
+}
+.breadcrumb{
+	background-color: #fff !important;
+}
+
+.product-view {
+  background: url(https://dy999ib17dqym.cloudfront.net/skin/frontend/peets_redesign/default/images/bg-type-1.png);
+}
+.search-img{
+	font-size: 20px;
+
+}
+.search-sing{
+  font-weight: 700  !important;
+	font-size: 14px !important;
+   font-family: 'GothamPro', sans-serif;
+}
+.header hr{
+	margin:0;
+	padding:0;
+}
+.section-first li{
+	color: #474747 !important;
+	font-size: 11px;
+    letter-spacing: 0.12em;
+    font-weight: 600;
+}
+
+.section-first-img{
+	    max-width: 100%;
+	    height: auto;
+}
+.fixed-lb{
+  font-size: 16px;
+}
+.breadcrumb a{
+	color: #a3a3a3 !important;;
+	text-transform: uppercase;
+	font-weight: 500;
+    letter-spacing: 0.12em;
+        line-height: 15px;
+        text-decoration:none !important;
+   }
+.breadcrumb-item.active{
+color: #a3a3a3 ;
+}
+
+.section-first h1{
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 10px;
+        letter-spacing: 0.1em;
+    font-weight: 550;
+    color: #191919;
+}
+.section-first p {
+	font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 0.03em;
+    color: #474747;
+  margin-right: 10px;
+}
+.section-first h6{
+	    color: #191919;
+	    font-size: 22px;
+    line-height: 26px;
+    font-family: 'GothamPro', sans-serif;
+}
+
+.section-first-buy h5{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0 0 5px;
+    letter-spacing: 0.08em;
+    color: #131313;
+    font-family: 'GothamPro', sans-serif;
+}
+.section-first-buy small{
+	    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: #a3a3a3;
+
+}
+.section-first h4{
+	    color: #b2b2b2;
+    font-weight: 400;
+    font-size: 12px;
+letter-spacing: 0.05em;
+}
+.min-circle{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: #f3f3f3;
+    color: #595959;
+    display: inline-block;
+        margin-top: 7px;
+}
+.hr-fixed{
+	width: 130px;
+}
+.section-first .btn{
+	    transition: background 0.3s linear;
+	    background: #8b6f4e;
+	    border: 1px solid #8b6f4e;
+	    border-radius: 22.5px;
+	        text-transform: uppercase;
+	            font-size: 14px;
+	            padding: 10px 0;
+              letter-spacing: 0.1em;
+    font-family: 'GothamPro', sans-serif;
+}
+.section-first .btn-primary:hover{
+	background: #75624c ;
+	border:1px solid #75624c;
+}
+.lol1{
+	text-align: center;
+}
+.text-free-fixed{
+letter-spacing: 0.08em;
+  font-size: 12px;
+    color: #a3a3a3;
+}
+.fa-arrow-down{
+	font-size: 40px;
+	
+
+	color: #dedede;
+}
+.caffeine-indicator 
+  {
+	background: linear-gradient(to right, #e7e7e7 0%, #e4e5e4 0%, #cdcdcd 20%, #cccbcc 20%, #b3b3b3 40%, #989898 60%, #7c7c7c 80%, #666566 100%);
+  height: 17px;
+    border-radius: 9px;
+  }
+  .section-second-box{
+  	border-right: 1px dashed #595959;
+  }
+  .section-second small{
+  	    letter-spacing: 0.08em;
+  }
+    .section-second{
+  	  background:#f9f9f9;
+  }
+  .section-second h2, .section-third h2, .section-sixth h2{
+  	    font-size: 14px;
+  	        font-weight: 550;
+    text-transform: uppercase;
+    color: #131313;
+    letter-spacing: 0.1em;
+   
+  }
+  .section-second-h2-fixed{
+    margin-top: 25px !important;
+  }
+.section-second p{
+      font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.15em;
+    font-family: 'GothamPro', sans-serif;
+  }
+.section-second strong{
+  font-size: 12px;
+    line-height: 18px;
+    color: #785c3d;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+
+  }
+
+.circle-indicator{
+border-radius: 50%;
+    border: 2px solid #fff;
+    width: 40px;
+    height: 40px;
+        background: #545454;
+            position: absolute;
+    top: 87px;
+    left: 85px;
+
+  }
+  .section-second-indicator strong{
+     margin-left: 75px;
+    width: 140px;
+    display: inherit;
+    letter-spacing: 0.13em;
+  
+  }
+  .section-second-indicator{
+    margin-right: 15%;
+  }
+ .section-second-indicator-signature{
+  text-transform: uppercase;
+    font-size: 12px;
+    line-height: 22px;
+    color: #191919;
+    margin-left: 10px !important;
+    margin-top: 10px;
+    letter-spacing: 0.15em;
+  }
+  .section-second-box-two p{
+    margin-bottom: 46px;
+  }
+ .section-second-box-two{
+        padding-right: 55px !important;
+    padding-left: 45px !important;
+  }
+  .section-third p{
+    color: #191919;
+    font-size: 15px;
+    line-height: 22px;
+     font-family: GothamPro, sans-serif;
+     letter-spacing: 0.04em;
+     margin-right: 35px;
+  }
+
+.fixed{
+  margin-top: 10px;
+}
+
+  footer{
+    background:#595959;
+    color: #fff;
+        font-size: 12px;
+    line-height: 20px;
+        letter-spacing: 0.02em;
+        font-weight: 550;
+  }
+    .footer-block-right, .footer-block-left{
+          padding: 20px 0 10px;
+    }
+
+    li{
+      list-style-type:none;
+    }
+.section-sixth-social-img i:hover{
+  color:  #8b6f4e;
+}
+   .section-sixth-social-img i{
+  color:  #595959;
+      margin-right: 20px;
+  font-size: 32px;
+}
+.section-sixth h2{
+  color: #595959;
+}
+   .section-sixth a{
+    color: #595959;
+        font-size: 14px;
+    line-height: 20px;
+letter-spacing: 0.12em;
+    font-weight: 450;
+      font-family: GothamPro, sans-serif;
+      line-height: 1.6;
+   }
+   .section-sixth a:hover{
+    color: #8b6f4e;
+    text-decoration: none;
+   }
+   .section-sixth-tel, .section-sixth-social{
+    color: #595959;
+    margin-top: 35px;
+    margin-bottom: 70px;
+    line-height: 1.6;
+   }
+
+   .section-fourth h2{
+    font-size: 18px;
+    line-height: 20px;
+    color: #191919;
+    font-weight: 500;
+    white-space: nowrap;
+
+  }
+
+.lol{
+  margin-top: 20px;
+}
+
+.section-fourth-text-fix span{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #595959;
+
+    letter-spacing: 0.08em;
+    border-bottom: 1px solid #fff;
+
+    cursor: pointer;
+  }
+
+.section-fourth .btn,  .section-fifth .btn{
+      line-height: 38px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+        transition: background 0.3s linear;
+    background: #8b6f4e;
+    border: 1px solid #8b6f4e;
+    border-radius: 22.5px;
+    padding: 0px 35px;
+       margin-bottom: 10px;
+       font-weight: 500;
+  }
+  .section-fourth{
+  border:1px solid #ececec;
+  position: sticky;
+  opacity:10;z-index: 10;
+  top: 0;
+  background: #fff;
+  }
+  .section-fourth-box{
+       margin-top: 10px;
+  }
+
+  .section-fifth p{
+  margin-left: 15px;
+    color: #191919;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .section-fifth .btn{
+
+  margin:0 auto;
+  }
+  .section-fifth{
+    background:#f9f9f9;
+  }
