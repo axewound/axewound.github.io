@@ -317,8 +317,8 @@ details{
 .fade:not(.show) {
     opacity: 1 !important;
 }
-.sectionSixth-borderPerson{
-	margin-bottom: 50px;
+.slideshow-container{
+	padding-bottom: 50px;
 }
 /*---------------------------------------------------------------------------------------------*/
 .sectionSeventin h3{
@@ -482,7 +482,7 @@ footer h6{
 		height: 200px;
 	}
 	.miniIcon a{
-    margin-right: 25px;
+    margin-right: 8px;
 }
 footer a{
 	font-size:11px; 
@@ -491,7 +491,7 @@ footer h6{
 	font-size:11px; 
 }
 .person img{
-	width: 175px;
+	width: 125px;
 }
 
 }
@@ -500,7 +500,14 @@ footer h6{
 		margin-top: 30px;
 	}
 }
-
+@media screen and (max-width: 350px){
+	.sectionSixth p{
+		height: 250px;
+	}
+	footer a{
+	font-size:8px; 
+}
+}
 @media (max-width: 768px) and (min-width: 576px) {
     	.miniIcon a {
     margin-right: 50px;
