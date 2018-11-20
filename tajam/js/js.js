@@ -13,7 +13,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+  var slides = document.getElementsByClassName("sectionSixth__slideshow__mySlides");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1} 
   if (n < 1) {slideIndex = slides.length}
@@ -26,6 +26,19 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   
 }
+
+
+
+
+ function show(descr){
+ var vid = document.getElementById(descr).style; 
+ if (vid.display == "none") {vid.display = "inline"; }
+ else {vid.display = "none";}
+   }  
+
+
+
+
 
 
 var slideIndex1 = 1;
@@ -43,8 +56,8 @@ function currentSlide1(q) {
 
 function showSlides1(q) {
   var i;
-  var slides1 = document.getElementsByClassName("mySlides1");
-  var dots1 = document.getElementsByClassName("dot1");
+  var slides1 = document.getElementsByClassName("headerTitle__Description-mySlide");
+  var dots1 = document.getElementsByClassName("header__click");
 
   if (q > slides1.length) {slideIndex1 = 1} 
   if (q < 1) {slideIndex1 = slides1.length}
