@@ -4,6 +4,7 @@
 header {
   background: url(../img/background.png) no-repeat center top/cover;
   text-align: center;
+  margin-top: -1px;
 }
 
 body {
@@ -19,6 +20,13 @@ ul li {
   list-style-type: none;
 }
 
+.headerNavbar {
+  position: sticky !important;
+  z-index: 10;
+  top: 0;
+  background: url(../img/navbar.png) no-repeat center top/cover;
+}
+
 .nav-item a {
   font-size: 13px;
   color: #fff !important;
@@ -28,7 +36,12 @@ ul li {
 }
 
 .nav-item a:hover {
+  transition: all 0.5s ease-out;
   color: #00e0d0 !important;
+}
+
+.navbar-nav {
+  text-align: center !important;
 }
 
 .product-view {
@@ -72,7 +85,7 @@ h2 {
   color: #fff;
   text-align: center;
   font-weight: 500;
-  margin-top: 165px;
+  padding-top: 165px;
   margin-bottom: 25px;
   font-family: "Playfair Display", serif !important;
 }
@@ -86,6 +99,14 @@ h2 {
   margin: 0 auto;
   margin-bottom: 50px;
   margin-top: 30px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../img/menu-icon.png) !important;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(224, 224, 224, 0.82) !important;
 }
 
 .header__click {
@@ -379,6 +400,7 @@ input[type="text"], input[type="password"], input[type="tel"], input[type="email
   border: 1px solid #ebebeb;
   background-color: transparent;
   border-radius: 0px;
+  color: #ebebeb;
 }
 
 #exampleFormControlTextarea {
@@ -466,8 +488,15 @@ input[type="submit"]:hover {
 }
 
 .sectionFooter__submit--miniIcon {
-  border-radius: 50%;
   margin-right: 11px;
+}
+
+.sectionFooter__submit--miniIcon img {
+  border-radius: 50%;
+}
+
+.sectionFooter__submit--miniIcon img:hover {
+  opacity: 0.5;
 }
 
 footer {
@@ -494,6 +523,17 @@ footer h6 {
 }
 
 @media screen and (max-width: 992px) {
+  .headerTitle h1 {
+    padding-top: 35px;
+  }
+  .nav-link {
+    padding: 0rem !important;
+  }
+  .nav-item a {
+    margin-right: 0px;
+    font-size: 14px;
+    letter-spacing: 10px;
+  }
   .subsection {
     border: 1px solid #ebebeb;
     border-collapse: collapse;
