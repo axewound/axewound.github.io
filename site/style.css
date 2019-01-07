@@ -305,6 +305,15 @@ padding-right: 0vw !important;
 
     width: 2vw;
 }
+.header-detail span img{
+	width: 0.7vw;
+}
+.button-all img{
+	width: 6.7vw;
+}
+.button-all div{
+clip-path: polygon(35.12% -86.66%, 97.8% -88.51%, 98.74% 311.99%, -4.35% 329.68%) !important;
+}
 }
 /* FOOTER------------------------------------- */
 footer{
@@ -397,7 +406,7 @@ footer p{
 	background: #1B3764;
 }
 .button-all div{
-	clip-path: polygon(35.12% -41.66%, 321.8% -56.51%, 97.74% 311.99%, -4.35% 329.68%);
+	clip-path: polygon(35.12% -68.66%, 321.8% -56.51%, 97.74% 311.99%, -4.35% 329.68%);
 	display: inline;
 	background: #1B3764;
 }
