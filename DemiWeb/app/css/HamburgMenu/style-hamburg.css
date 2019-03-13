@@ -1,0 +1,57 @@
+.main_menu a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: block;
+  padding: 20px 5px;
+  text-decoration: none;
+  position: relative; }
+
+.hamburger {
+  float: right; }
+
+.header .menu1 .link {
+  background: #fff; }
+
+.header1 {
+  width: 100%;
+  line-height: 60px;
+  position: relative; }
+
+.header1 .menu1 {
+  z-index: 1000000;
+  font-weight: bold;
+  font-size: 0.8em;
+  width: 100%;
+  margin-top: 10px;
+  position: absolute;
+  text-align: center;
+  font-size: 12px; }
+
+.header1 .menu1 h2 {
+  color: #000; }
+
+.header1 .menu1 a {
+  text-decoration: none;
+  color: #666; }
+
+.header1 .menu1 a:hover {
+  text-decoration: none;
+  color: #666; }
+
+.header1 {
+  display: inline-block;
+  font-size: 12px; }
+
+a {
+  color: #fff; }
+
+.header-hambureger {
+  padding-top: 15px; }
+
+.header-top {
+  padding-top: 15px; }
+
+@media (min-width: 991.98px) {
+  .header {
+    display: none; } }
