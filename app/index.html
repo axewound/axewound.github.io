@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slick Playground</title>
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="block_box"></div>
+    <ul class="steps">
+      <li class="active">
+        <div class="steps_circle"></div>
+        <span>Contacts</span>
+      </li>
+      <li><hr>
+        <div class="steps_circle"></div>
+        <span>Address</span>
+      </li>
+      <li><hr>
+        <div class="steps_circle"></div>
+        <span>Categories</span>
+      </li>
+      <li><hr>
+        <div class="steps_circle"></div>
+        <span>Success</span>
+      </li>
+    </ul>
+    <div class="form-registration">
+     <form  class="form-wrapper">
+      <div class="form-wrapper_section active">
+        <h2>Email</h2>
+        <input type="text" name="Email" >
+        <br>
+        <h2>Password</h2>
+        <input type="text" name="Password" >
+        <h2>Password confirm</h2>
+        <input type="text" name="Password confirm" >
+        <button class="button" type="submit" value="Next">Next</button>
+      </div>
+      <div class="form-wrapper_section">
+        <h2>Country</h2>
+        <input type="text" name="Country" >
+        <br>
+        <h2>City</h2>
+        <input type="text" name="City" >
+        <h2>Adress</h2>
+        <input type="text" name="Adress" >
+        <button class="button" type="submit" value="Next">Next</button>
+      </div>
+      <div class="form-wrapper_section">
+        <h2>Category 1</h2>
+        <div class="select">
+          <select>
+            <option value="Arts & Entertainments">Arts & Entertainments</option>
+            <option value="Programmer">Programmer</option>
+            <option value="IT">IT</option>
+            <option value="Sport">Sport</option>
+          </select>
+        </div>
+        <br>
+        <h2>Category 2</h2>
+        <input type="text" name="Category 2" >
+        <h2>Category 3</h2>
+        <input type="text" name="Category 3" >
+        <button class="button" type="submit" value="Next" >Next</button>
+      </div>
+      <div class="form-wrapper_section last-section">
+        <h1>Success!</h1>
+        <div class="info">  
+          <p>Your account was successfuly registered.<br>
+            Please wait for account approval.<br>
+          If acn take up to 24 hours.</p>
+          <span>
+            Have questions?<br>
+            Contact <a href="mailto:info@site.com">info@site.com</a>
+          </span>
+        </div>
+      </form> 
+    </div>
+    <div class="triangle-left"></div>
+    <div class="triangle-right"></div>
+  </div>
+</body>
+<script src="js/index.js"></script>  
+</html>
+
