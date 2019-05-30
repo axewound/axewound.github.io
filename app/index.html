@@ -1,424 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <title>Slick Playground</title>
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="block_main">
-		<div class="block_left">
-			<div class="left_block_heder">
-				<div class="block_img">
-					<img src="img/block_left/person.png" alt="" class="person">
-					<div class="left_img_number">
-						<span>2</span>
-					</div>
-				</div>
-				<div class="circle_left">
-					<div class="circle_left_mini"></div>
-					<div class="circle_left_mini"></div>
-					<div class="circle_left_mini"></div>
-				</div>
-				<div class="left_icon">
-					<img src="img/block_left/Board_ICON.png" alt="">
-					<span class="left_text_block white">Board</span>
-				</div>
-				<div class="circle_left">
-					<div class="circle_left_mini"></div>
-					<div class="circle_left_mini"></div>
-					<div class="circle_left_mini"></div>
-				</div>
-				<div class="left_icon">
-					<img src="img/block_left/Projects Icon.png" alt="">
-					<span class="left_text_block">Projects</span>
-					<div class="left_img_number grey ">
-						<span>9</span>
-					</div>
-				</div>
-				<div class="circle_left">
-					<div class="circle_left_mini"></div>
-					<div class="circle_left_mini"></div>
-					<div class="circle_left_mini"></div>
-				</div>
-				<div class="left_icon">
-					<img src="img/block_left/Settings_Icon.png">
-					<span class="left_text_block">Setting</span>
-				</div>
-			</div>
-			<div class="left_footer">
-				<div class="left_icon">
-					<img src="img/block_left/Upgrad_Icon.png" alt="">
-					<span class="left_text_block">Upgrade</span>
-					<div class="left_img_number fixed">
-						<span>2</span>
-					</div>
-				</div>
-				<div class="circle_left">
-					<div class="circle_left_mini"></div>
-					<div class="circle_left_mini"></div>
-					<div class="circle_left_mini"></div>
-				</div>
-				<img src="img/block_left/Logout_Icon.png">
-				<span class="left_text_block white">Logout</span>
-			</div>
-		</div>
-		<div class="block_right">
-			<header>
-				<div class="container">
-					<div class="header_all">
-						<div class="heder_left">
-							<div class="circle red"><img src="img/header/ICON.png"></div>
-							<div class="header_button_text">
-								<span>Dashboard</span>
-							</div>
-						</div>
-						<div class="header_right">
-							<div class="circle green"><img src="img/header/Arrow.png"></div>
-							<div class="wrapper-demo">
-								<div id="dd" class=" header_button_text text_uppercase wrapper-dropdown-3" tabindex="1">
-									<span><img src="img/header/speak.png" alt=""><span style="margin-top: -5px; margin-right: 5px;">5</span> User ONLINE</span>
-									<ul class="dropdown">
-										<li><a href="#">Text</a></li>
-										<li><a href="#">text</a></li>
-										<li><a href="#">text</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</header>
-			<div class="section_pre_header">
-				<div class="container">
-					<div class="pre_box">
-						<div class="pre_block ">
-							<img src="img/pre_header/ICON.png" alt="">
-							<h5>Active Projects</h5>
-							<span>9</span>
-						</div>
-						<div class="pre_block pre_block_red active_second">
-							<img src="img/pre_header/Messenger.png" alt="">
-							<h5>Messenger</h5>
-							<span>2</span>
-						</div>
-					</div>
-					<div class="search">
-						<form>
-							<input type="text" placeholder="Search Project, User, Task, etc...">
-						</form>
-					</div>
-				</div>
-			</div>
-			<div class="section_second">
-				<div class="container">
-					<div class="section_block_all">
-						<div class="section_left">
-							<div class="block_search">
-								<form>
-									<input type="text" placeholder="Search Project, User, Task, etc...">
-								</form>
-								<div class="header_right">
-									<div class="circle red"><img src="img/second_section/Icon.png"></div>
-									<div class="header_button_text text_uppercase">
-										<span><img src="img/header/speak.png" alt=""><span style="margin-top: -5px; margin-right: 2px;">5</span> User ONLINE<img src="img/header/speak_grey.png"></span>
-									</div>
-								</div>
-							</div>
-							<div class="section_block_horizontally">
-								<div class="horizontally_left">
-									<div class="red_info"><span>23%</span></div>
-									<h4>Create Contact Formular</h4>
-								</div>
-								<div class="horizontally_right">
-									<div class="project_block"><span>Worlda</span></div>
-									<div class="project_circle block_margin"><i class="fas fa-search"></i></div>
-									<div class="project_circle"><i class="fas fa-chevron-down"></i></div>
-								</div>
-							</div>
-							<div class="section_block_horizontally">
-								<div class="horizontally_left">
-									<div class="red_info"><span>87%</span></div>
-									<h4>Create Subpage PSD</h4>
-								</div>
-								<div class="horizontally_right">
-									<div class="project_block"><span>Panorama</span></div>
-									<div class="project_circle block_margin"><i class="fas fa-search"></i></div>
-									<div class="project_circle"><i class="fas fa-chevron-down"></i></div>
-								</div>
-							</div>
-							<div class="section_block_horizontally">
-								<div class="horizontally_left">
-									<div class="red_info"><span>83%</span></div>
-									<h4>Layout & implementation in HTML & CSS
-									</h4>
-								</div>
-								<div class="horizontally_right">
-									<div class="project_block"><span>Ebay Relaunch</span></div>
-									<div class="project_circle block_margin"><i class="fas fa-search"></i></div>
-									<div class="project_circle"><i class="fas fa-chevron-down"></i></div>
-								</div>
-							</div><div class="section_block_horizontally block_grey">
-								<div class="horizontally_left">
-									<div class="red_info info_grey "><span>66%</span></div>
-									<h4>Creating the Context</h4>
-								</div>
-								<div class="horizontally_right">
-									<div class="box_right_img">
-										<div class="mini_circle green_mini"></div>
-										<img src="img/second_section/man.png" alt="">
-									</div>
-									<div class="box_right_img">
-										<div class="mini_circle green_mini"></div>
-										<img src="img/block_left/Ebene.png" alt="">
-									</div>
-									<div class="box_right_img">
-										<div class="mini_circle green_mini grey_color"></div>
-										<img src="img/block_left/Ebene63.png" alt="">
-									</div>
-									<div class="box_right_img">
-										<div class="mini_circle_grey">
-											<span>+3</span>
-										</div>
-									</div>
-									<div class="project_block"><span>Today, 13:40 PM</span></div>
-									<div class="project_circle block_margin"><i class="fas fa-search"></i></div>
-									<div class="project_circle"><i class="fas fa-chevron-down"></i></div>
-								</div>
-							</div><div class="section_block_horizontally block_grey">
-								<div class="horizontally_left">
-									<div class="red_info info_grey font_size_mini"><span>READY</span></div>
-									<h4 class="line_through">Implementation in the Layout</h4>
-								</div>
-								<div class="horizontally_right">
-									<div class="box_right_img">
-										<div class="mini_circle green_mini"></div>
-										<img src="img/block_left/Ebene.png" alt="">
-									</div>
-									<div class="box_right_img">
-										<div class="mini_circle green_mini grey_color"></div>
-										<img src="img/block_left/Ebene63.png" alt="">
-									</div>
-									<div class="project_block"><span>Yestarday, 12:40 PM</span></div>
-									<div class="project_circle block_margin"><i class="fas fa-search"></i></div>
-									<div class="project_circle"><i class="fas fa-chevron-down"></i></div>
-								</div>
-							</div><div class="section_block_horizontally">
-								<div class="horizontally_left">
-									<div class="red_info"><span>23%</span></div>
-									<h4>Lorem ipsum dolor sit amet, elitr, sed diam <br>nonumy eirmod tempor</h4>
-								</div>
-								<div class="horizontally_right">
-									<div class="project_block"><span>Panorama</span></div>
-									<div class="project_circle block_margin"><i class="fas fa-search"></i></div>
-									<div class="project_circle"><i class="fas fa-chevron-down"></i></div>
-								</div>
-							</div><div class="section_block_horizontally">
-								<div class="horizontally_left">
-									<div class="red_info"><span>98%</span></div>
-									<h4>Create Contact Formular</h4>
-								</div>
-								<div class="horizontally_right">
-									<div class="project_block"><span>Worlda</span></div>
-									<div class="project_circle block_margin"><i class="fas fa-search"></i></div>
-									<div class="project_circle"><i class="fas fa-chevron-down"></i></div></div>
-								</div><div class="section_block_horizontally">
-									<div class="horizontally_left">
-										<div class="red_info"><span>98%</span></div>
-										<h4>Create Contact Formular</h4>
-									</div>
-									<div class="horizontally_right">
-										<div class="project_block"><span>Worlda</span></div>
-										<div class="project_circle block_margin"><i class="fas fa-search"></i></div>
-										<div class="project_circle"><i class="fas fa-chevron-down"></i></div></div>
-									</div><div class="section_block_horizontally">
-										<div class="horizontally_left">
-											<div class="red_info"><span>98%</span></div>
-											<h4>Create Contact Formular</h4>
-										</div>
-										<div class="horizontally_right">
-											<div class="project_block"><span>Worlda</span></div>
-											<div class="project_circle block_margin"><i class="fas fa-search"></i></div>
-											<div class="project_circle"><i class="fas fa-chevron-down"></i></div>
-										</div>
-									</div>
-									<div class="section_block_horizontally">
-										<h4>Project Archiv<img src="img/second_section/right.png" class="img"></h4>
-									</div>
-								</div>
-								<div class="section_box_right">
-									<div class="box_right_horizontally">
-										<div class="box_right_img">
-											<div class="mini_circle green_mini"></div>
-											<img src="img/block_left/Ebene63.png" alt="">
-										</div>
-										<div class="box_right_text">
-											<h4><span>Mark P.</span> add an Image into Worlda</h4>
-											<h5>Today, 10:30 PM</h5>
-										</div>
-									</div>					<div class="box_right_horizontally ">
-										<div class="box_right_img ">
-											<div class="mini_circle green_mini grey_color"></div>
-											<img src="img/second_section/man.png" alt="">
-										</div>
-										<div class="box_right_text">
-											<h4><span>Mark P.</span> add an Image into Worlda</h4>
-											<h5>Today, 10:30 PM</h5>
-										</div>
-									</div>					<div class="box_right_horizontally">
-										<div class="box_right_img">
-											<div class="mini_circle green_mini"></div>
-											<img src="img/block_left/Ebene.png" alt="">
-										</div>
-										<div class="box_right_text">
-											<h4><span>Mark P.</span> add an Image into Worlda</h4>
-											<h5>Today, 10:30 PM</h5>
-										</div>
-									</div>					<div class="box_right_horizontally">
-										<div class="box_right_img">
-											<div class="mini_circle green_mini grey_color"></div>
-											<img src="img/block_left/Ebene.png" alt="">
-										</div>
-										<div class="box_right_text">
-											<h4><span>Marvin S.</span>  add an Image into Worlda</h4>
-											<h5>Today, 10:30 PM</h5>
-										</div>
-									</div>					<div class="box_right_horizontally">
-										<div class="box_right_img">
-											<div class="mini_circle green_mini"></div>
-											<img src="img/second_section/man.png" alt="">
-										</div>
-										<div class="box_right_text">
-											<h4><span>Mark P.</span> add an Image into Worlda</h4>
-											<h5>Today, 10:30 PM</h5>
-										</div>
-									</div>					<div class="box_right_horizontally">
-										<div class="box_right_img">
-											<div class="mini_circle green_mini grey_color"></div>
-											<img src="img/block_left/Ebene63.png" alt="">
-										</div>
-										<div class="box_right_text">
-											<h4><span>Mark P.</span> add an Image into Worlda</h4>
-											<h5>Today, 10:30 PM</h5>
-										</div>
-									</div>					<div class="box_right_horizontally">
-										<div class="box_right_img">
-											<div class="mini_circle green_mini"></div>
-											<img src="img/second_section/man.png" alt="">
-										</div>
-										<div class="box_right_text">
-											<h4><span>Sebastian K. </span> add an Image into Worlda</h4>
-											<h5>Today, 10:30 PM</h5>
-										</div>
-									</div>					<div class="box_right_horizontally">
-										<div class="box_right_img">
-											<div class="mini_circle green_mini"></div>
-											<img src="img/block_left/Ebene63.png" alt="">
-										</div>
-										<div class="box_right_text">
-											<h4><span>Benni I.</span>  add an Image into Worlda</h4>
-											<h5>Today, 10:30 PM</h5>
-										</div>
-									</div>					<div class="box_right_horizontally">
-										<div class="box_right_img">
-											<div class="mini_circle green_mini"></div>
-											<img src="img/second_section/man.png" alt="">
-										</div>
-										<div class="box_right_text">
-											<h4><span>Benni I.</span>  add an Image into Worlda</h4>
-											<h5>Today, 10:30 PM</h5>
-										</div>
-									</div>		
-									<div class="box_right_horizontally">
-										<div class="box_right_img">
-											<div class="mini_circle green_mini"></div>
-											<img src="img/second_section/man.png" alt="">
-										</div>
-										<div class="box_right_text">
-											<h4><span>Benni I.</span>  add an Image into Worlda</h4>
-											<h5>Today, 10:30 PM</h5>
-										</div>
-
-									</div>
-									<div class="box_right_horizontally">					<div class="box_right_text">
-										<h4 class="last">Project Archiv<img src="img/second_section/right.png" class="img"></h4>
-									</div>
-								</div>
-
-							</div>
-						</div>
-
-					</div></div>
-				</div>
-			</div>
-
-		</div>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script type="text/javascript">
-			
-			function DropDown(el) {
-				this.dd = el;
-				this.placeholder = this.dd.children('span');
-				this.opts = this.dd.find('ul.dropdown > li');
-				this.val = '';
-				this.index = -1;
-				this.initEvents();
-			}
-			DropDown.prototype = {
-				initEvents : function() {
-					var obj = this;
-
-					obj.dd.on('click', function(event){
-						$(this).toggleClass('active');
-						return false;
-					});
-
-					obj.opts.on('click',function(){
-						var opt = $(this);
-						obj.val = opt.text();
-						obj.index = opt.index();
-						obj.placeholder.text(obj.val);
-					});
-				},
-				getValue : function() {
-					return this.val;
-				},
-				getIndex : function() {
-					return this.index;
-				}
-			}
-
-			$(function() {
-
-				var dd = new DropDown( $('#dd') );
-
-				$(document).click(function() {
-					// all dropdowns
-					$('.wrapper-dropdown-3').removeClass('active');
-				});
-
-			});
-
-		</script>
-		<script src="js/js.js">
-
-		</script>
-		<script>
-
-			$(".pre_box .pre_block").click(function() {
-				$(".pre_box .pre_block").removeClass("active_second").eq($(this).index()).addClass("active_second");
-			}).eq(1).addClass("active_second");
-		</script>
-		<style>.pre_box .active_second {
-			border: 1px solid #d3d7da;
-			border-top: none;
-			background: #f8f8f8 !important;
-
-		}
-
-		</body>
-		</html>
+  <div class="container">
+    <div class="block_box"></div>
+    <ul class="steps">
+      <li class="active">
+        <div class="steps_circle"></div>
+        <span>Contacts</span>
+      </li>
+      <li><hr>
+        <div class="steps_circle"></div>
+        <span>Address</span>
+      </li>
+      <li><hr>
+        <div class="steps_circle"></div>
+        <span>Categories</span>
+      </li>
+      <li><hr>
+        <div class="steps_circle"></div>
+        <span>Success</span>
+      </li>
+    </ul>
+    <div class="form-registration">
+     <form  class="form-wrapper">
+      <div class="form-wrapper_section active">
+        <h2>Email</h2>
+        <input type="text" name="Email" >
+        <br>
+        <h2>Password</h2>
+        <input type="text" name="Password" >
+        <h2>Password confirm</h2>
+        <input type="text" name="Password confirm" >
+        <button class="button" type="submit" value="Next">Next</button>
+      </div>
+      <div class="form-wrapper_section">
+        <h2>Country</h2>
+        <input type="text" name="Country" >
+        <br>
+        <h2>City</h2>
+        <input type="text" name="City" >
+        <h2>Adress</h2>
+        <input type="text" name="Adress" >
+        <button class="button" type="submit" value="Next">Next</button>
+      </div>
+      <div class="form-wrapper_section">
+        <h2>Category 1</h2>
+        <div class="select">
+          <select>
+            <option value="Arts & Entertainments">Arts & Entertainments</option>
+            <option value="Programmer">Programmer</option>
+            <option value="IT">IT</option>
+            <option value="Sport">Sport</option>
+          </select>
+        </div>
+        <br>
+        <h2>Category 2</h2>
+        <input type="text" name="Category 2" >
+        <h2>Category 3</h2>
+        <input type="text" name="Category 3" >
+        <button class="button" type="submit" value="Next" >Next</button>
+      </div>
+      <div class="form-wrapper_section last-section">
+        <h1>Success!</h1>
+        <div class="info">  
+          <p>Your account was successfuly registered.<br>
+            Please wait for account approval.<br>
+          If acn take up to 24 hours.</p>
+          <span>
+            Have questions?<br>
+            Contact <a href="mailto:info@site.com">info@site.com</a>
+          </span>
+        </div>
+      </form> 
+    </div>
+    <div class="triangle-left"></div>
+    <div class="triangle-right"></div>
+  </div>
+</body>
+<script src="js/index.js"></script>  
+</html>
 
