@@ -498,9 +498,19 @@ hr{
     margin-left: 10px;
 
 }
+.section_fifth .fas{
+    margin-top: 2px;
+}
+.section_fifth .button_all span{
+        margin-left: 0px !important; 
+     margin-top: 0px !important;
+}
 @media (max-width: 992px) { 
     .line_img{
         width: 100%;
+    }
+    .section_fourth{
+        margin-left: 0;
     }
     .header_menu ul{
         flex-direction: column;
