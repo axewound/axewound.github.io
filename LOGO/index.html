@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Title of the document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+	<script async src="script.js"></script>
+	<script async src="win.js"></script>
+	<script src="dist/js/splide.min.js"></script>
+	<link href="hamburgers.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+	<script src="https://kit.fontawesome.com/684992f13d.js" crossorigin="anonymous"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+	<header class="container " id="header">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Logo</a>
+			<div class="button_lan hidden_nav row">
+				<button class="btn  log" type="submit">Log in</button>
+				<button class="btn btn-outline-success register" id="reg2" type="submit">Register</button>
+				<nav class="navbar navbar-expand navbar-light bg-light language_bar p-0">
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+								<div class=" language nav-link m-0 p-0"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+									<a class="p-0 language_name" href="#"  role="button">ENG</a>
+									<img src="img/flag-of-the-united-kingdom.png" class="m-0 p-0">
+								</div>
+								<div class="row  dropdown-menu block_lang" aria-labelledby="navbarDropdown">
+									<div class=" language">
+										<a class="p-0 mr-0  language_name" href="#"  role="button">ENG</a>
+										<img src="img/flag-of-the-united-kingdom.png" class="p-0">
+									</div>
+									<div class="language">
+										<a class=" language_name m-0 p-0" href="#"  role="button">RUS</a>
+										<img src="img/flag-ocup.png" class="  p-0">
+									</div>
+									<div class="language">
+										<a class=" language_name m-0 p-0" href="#"  role="button">IT</a>
+										<img src="img/flag-of-the-italy.png" class=" p-0">
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<button class="navbar-toggler hamburger hamburger--squeeze" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"  aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon hamburger-box">  <span class="hamburger-inner"></span></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<hr>
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown">
+						<a class="nav-link nav_open_link  dropdown-toggle m-0 p-0p" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Group 1
+						</a>
+						<div class=" dropdown-menu show1" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Item 1</a>
+							<a class="dropdown-item" href="#">Item 2</a>
+							<a class="dropdown-item" href="#">Item 3</a>
+							<a class="dropdown-item" href="#">Item 4</a>
+							<a class="dropdown-item" href="#">Item 5</a>
+							<a class="dropdown-item" href="#">Item 6</a>
+							<button class="back">Back</button>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link nav_open_link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Group 2
+						</a>
+						<div class="dropdown-menu " aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Item 21</a>
+							<a class="dropdown-item" href="#">Item 2</a>
+							<a class="dropdown-item" href="#">Item 3</a>
+							<a class="dropdown-item" href="#">Item 4</a>
+							<a class="dropdown-item" href="#">Item 5</a>
+							<a class="dropdown-item" href="#">Item 6</a>
+							<button class="back">Back</button>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link nav_open_link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Group 3
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Item 31</a>
+							<a class="dropdown-item" href="#">Item 2</a>
+							<a class="dropdown-item" href="#">Item 3</a>
+							<a class="dropdown-item" href="#">Item 4</a>
+							<a class="dropdown-item" href="#">Item 5</a>
+							<a class="dropdown-item" href="#">Item 6</a>
+							<button class="back">Back</button>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link nav_open_link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Group 4
+						</a>
+						<div class="dropdown-menu"  aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Item 41</a>
+							<a class="dropdown-item" href="#">Item 2</a>
+							<a class="dropdown-item" href="#">Item 3</a>
+							<a class="dropdown-item" href="#">Item 4</a>
+							<a class="dropdown-item" href="#">Item 5</a>
+							<a class="dropdown-item" href="#">Item 6</a>
+							<button class="back">Back</button>
+						</div>
+					</li>
+				</ul>
+				<div class="button_lan bui row">
+					<button class="btn  log" type="submit">Log in</button>
+					<button class="btn btn-outline-success register" id="reg" type="submit">Register</button>
+					<nav class="navbar navbar-expand navbar-light bg-light language_bar p-0">
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item active">
+									<div class=" language nav-link m-0 p-0"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+										<a class="p-0 language_name" href="#"  role="button">ENG</a>
+										<img src="img/flag-of-the-united-kingdom.png" class="m-0 p-0">
+									</div>
+									<div class="row  dropdown-menu block_lang" aria-labelledby="navbarDropdown">
+										<div class=" language">
+											<a class="p-0 mr-0  language_name" href="#"  role="button">ENG</a>
+											<img src="img/flag-of-the-united-kingdom.png" class="p-0">
+										</div>
+										<div class="language">
+											<a class=" language_name m-0 p-0" href="#"  role="button">RUS</a>
+											<img src="img/flag-ocup.png" class="  p-0">
+										</div>
+										<div class="language">
+											<a class=" language_name m-0 p-0" href="#"  role="button">IT</a>
+											<img src="img/flag-of-the-italy.png" class=" p-0">
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<section class="section_first">
+		<div class="container">
+			<h1>Contrary to popular belief,<br> Lorem Ipsum is not simply! </h1>
+			<p> It uses a dictionary of over 200 Latin words, combined with a handful of model<br> sentence structures, to generate Lorem Ipsum which looks reasonable.  </p>
+			<div class="button_lorem">
+				<button class="btn btn-outline-success" type="submit">Lorem Ipsum</button>
+			</div>
+		</div>
+	</section>
+	<section class="section_second">
+		<div class="container ">
+			<div class="row info">
+				<div class="col-12 col-lg-6 m-0 p-0">
+					<h2 class="mb-0">What is Lorem Ipsum?</h2>
+					<p class="text mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. t has survived not only five centuries, but also the leap into electronic typesetting. </p>
+					<div class="row block_app">
+						<div class="down_icon col-12 pl-0 col-sm-4">
+							<button class="app">
+								<i class="fab fa-apple"></i>
+								<div class="text_app">
+									<p class="mb-0 p-0">Download in the</p>
+									<span>App Store</span>
+								</div>
+							</button>
+						</div>
+						<div class="down_icon col-12 pl-0   col-sm-4">
+							<button class="app">
+								<i class="fas fa-play"></i>
+								<div class="text_app">
+									<p class="text_upper mb-0 p-0 ">Get in on</p>
+									<span class="text_space">Google Play</span>
+								</div>
+							</button>
+						</div>
+						<div class="down_icon col-12 pl-0   col-sm-4">
+							<button class="app">
+								<i class="fab fa-windows"></i>
+								<div class="text_app">
+									<p class="mb-0 p-0">Get in on</p> 
+									<span class="text_space">Windows 10</span>
+								</div>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-12 monitoring_img m-xl-0 p-xl-0">
+					<img src="img/monitoring1.png">
+				</div>
+			</div>
+			<div class="col-xl-12 mini_box_block pr-0 pl-0">
+				<div class="row justify-content-between">
+					<div class="col-12 col-sm-6 mini_box p-0">
+						<img src="img/ic(1).png">
+						<p>Contrary to popular belief leap</p>
+					</div>
+					<div class="col-12 col-sm-6 mini_box p-0">
+						<img src="img/ic(2).png">
+						<p>Various versions have evolved over </p>
+					</div>
+					<div class="col-12 col-sm-6 mini_box p-0 df_min" >
+						<img src="img/ic(3).png">
+						<p>Andful of model sentence structures</p>
+					</div>
+					<div class="col-12 col-sm-6 mini_box p-0 df_min">
+						<img src="img/ic(4).png">
+						<p> Lorem Ipsum generators Internet</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section_third">
+		<div class="container-en">
+			<div class="container">
+				<h2>Where can I get some?</h2>
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered<br> alteration in some form, by injected humour, or randomised words which don't look even<br> slightly believable.</p>
+			</div>
+			<div class="block_slide">
+				<div class="stock row splide slider_box" id="card-slider" >
+					<div class="splide__track m-0 p-0">
+						<ul class="splide__list">
+							<li class="trading col-xl-3 p-xl-0 ml-0 splide__slide">
+								<img src="img/goo.png">
+								<h4>Google Inc</h4>
+								<p>$1 587.9</p>
+								<h5 class="minus_red">-2.68%</h5>
+								<button class="btn btn-outline-success " type="submit">Start trading</button>
+							</li>
+							<li class="col-xl-3 trading splide__slide">
+								<img src="img/app.png">
+								<h4>Apple Inc</h4>
+								<p>$115.91</p>
+								<h5>0.46%</h5>
+								<button class="btn btn-outline-success" type="submit">Start trading</button>
+							</li>
+							<li class="col-xl-3 trading splide__slide">
+								<img src="img/fb.png">
+								<h4>Facebook Inc</h4>
+								<p>$282.80</p>
+								<h5>0.60%</h5>
+								<button class="btn btn-outline-success " type="submit">Start trading</button>
+							</li>
+							<li class="col-xl-3 trading splide__slide">
+								<img src="img/tes.png">
+								<h4>Tesla Motors Inc</h4>
+								<p>$425.08</p>
+								<h5 class="minus_red">-1.20%</h5>
+								<button class="btn btn-outline-success " type="submit">Start trading</button>
+							</li>
+							<li class="col-xl-3 trading splide__slide">
+								<img src="img/ama.png">
+								<h4>Amazon Inc</h4>
+								<p>$365.33</p>
+								<h5>18.1%</h5>
+								<button class="btn btn-outline-success " type="submit">Start trading</button>
+							</li>
+							<li class="col-xl-3 trading splide__slide">
+								<img src="img/sna.png">
+								<h4>Snap Inc</h4>
+								<p>$842.2</p>
+								<h5 class="minus_red">- 3.5%</h5>
+								<button class="btn btn-outline-success " type="submit">Start trading</button>
+							</li>
+						</ul>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section_fourth" id="reg_box">
+		<div class="container ">
+			<div class="block_registration row">
+				<div class="col-lg-6 col-md-12 p-0 m-0 block_info_reg col-12">
+					<h2>Where can I get some?</h2>
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour. </p>
+					<div class="block_info_i first_box">
+						<h5>01</h5>
+						<hr>
+						<div class="block_info">
+
+							<h3>Standard chunk </h3>
+							<p>Latin words, combined with a handful of model sentence structures sheets containing.</p>
+						</div>
+					</div>
+					<div class="block_info_i">
+						<h5>02</h5>
+						<hr>
+						<div class="block_info">
+							<h3>Contrary popular </h3>
+							<p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing middle of text.</p>
+						</div>
+					</div>
+					<div class="block_info_i">
+						<h5>03</h5>
+						<hr>
+						<div class="block_info">
+							<h3>Desktop publishing </h3>
+							<p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade bd-example-modal-lg " id="modal" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-body">
+								<p>Registration has been comple</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-5 col-lg-6 col-md-12 registration_form col-12">
+					<h3 >Registration form</h3>
+					<form name="RegForm" id="signup" class="form"> 
+						<div class="form-group">
+							<div class="form-field">
+								<label  for="formGroupExampleInput">Name</label>
+								<input id="username" name="Name"  type="text" class="form-control" id="formGroupExampleInput" placeholder="Your name">
+							</div>
+							<div class="form-field">
+								<label for="exampleInputEmail1">Email address</label>
+								<input  id="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your e-mail">
+							</div>
+							<div class="form-field">
+								<label for="inputState">Country</label>
+								<select id="inputState"  type="inputState"class="form-control">
+									<option selected disabled hidden>Choose country</option>
+									<option>Default title</option>
+									<option>Hover title</option>
+									<option>Default title</option>
+									<option>Default title</option>
+								</select>
+							</div>
+							<div class="form-field">
+								<label for="example-tel-input" class=" ">Phone</label>
+								<input class="form-control" id="phone" type="tel" placeholder="Enter your phone">
+							</div>
+						</div>
+						<div class="form-check pl-0">
+							<input type="checkbox"  class="form-check-input mt-0" id="exampleCheck1">
+							<label class="form-check-label m-0 p-0" for="exampleCheck1">Combined with a Model <br>sentence</label>
+						</div>
+						<button  type="submit" class="btn btn-primary btn-info btn-lg" id="" data-toggle="modal" data-target=".bd-example-modal-lg">Send</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer >
+		<div class="container">
+			<div class="footer_block_all p-0 m-0">
+				<div class="row footer_block">
+					<div class="col-12 col-sm-4 p-0 m-0">
+						<a class="navbar-brand footer_logo p-0 m-0" href="#">LOGO</a>
+						<div class="footer_email">support@brandname.com</div>
+						<div class="footer_phone">+1234567890</div>
+						<p class="footer_adress">Adress lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+						<div class=" logo_card" class="row">
+							<img src="img/Mastercard.png">
+							<img src="img/visa.png" class="visa">
+						</div>
+					</div>
+					<div class="list-group col-12 col-sm-8">
+						<div class="row">
+							<div class="col-3 list-group_all">
+								<ul class="list-group">
+									<span>Group 1</span>
+									<li>Item 1</li>
+									<li>Item 2</li>
+									<li>Item 3</li>
+									<li>Item 4</li>
+									<li>Item 5</li>
+									<li>Item 6</li>
+								</ul>
+							</div>
+							<div class="col-2 list-group_all">
+								<ul class="list-group">
+									<span>Group 2</span>
+									<li>Item 1</li>
+									<li>Item 2</li>
+									<li>Item 3</li>
+									<li>Item 4</li>
+									<li>Item 5</li>
+								</ul>
+							</div>
+							<div class="col-3 list-group_all">
+								<ul class="list-group">
+									<span>Group 3</span>
+									<li>Item 1</li>
+									<li>Item 2</li>
+									<li>Item 3</li>
+									<li>Item 4</li>
+									<li>Item 5</li>
+									<li>Item 6</li>
+								</ul>
+							</div>
+							<div class="col-2 list-group_all">
+								<ul class="list-group">
+									<span>Group 4</span>
+									<li>Item 1</li>
+									<li>Item 2</li>
+									<li>Item 3</li>
+									<li>Item 4</li>
+									<li>Item 5</li>
+									<li>Item 6</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="footer_li_text  col-12">
+								<a href="" class="" >Lorem Ipsum available</a>
+								<a href="">Sentence structures</a>
+								<a href="">Latin words</a>
+								<a href="">Repeat predefined</a>
+							</div>
+						</div>
+					</div>
+					<div class="row footer_variations col-md-12 col-sm-8  col-12">
+						<div class="row link_footer_hidden">
+							<div class="footer_li_text p-0 col-12">
+								<div class="row">
+									<div class="link_footer_hidden_a col-6">
+										<a href="" class="" >Lorem Ipsum available</a>
+										<a href="">Sentence structures</a>
+									</div>
+									<div class="link_footer_hidden_a col-6">
+										<a href="">Latin words</a>
+										<a href="">Repeat predefined</a>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 footer_first col-md-6 mr-6 p-0">
+							<h3>variations of passages of Lorem:</h3>
+							<p>
+								There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.  
+							</p>
+						</div>
+						<div class="col-12 footer_second col-md-6 m-0 p-0">
+							<h3>model sentence structures:</h3>
+							<p>
+								All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic  etc.
+							</p>
+						</div>
+						<div class="arrow" id="arrow"><img src="img/arrow.svg"></div>
+					</div>
+					<div class="col-12 col-sm-4 col-md-4 footer_rights p-0 m-xl-0">
+						<p>© 2021 BrandName. All rights reserved  </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+<script src="valid.js"></script>
+<script type="text/javascript">function arrow(id, whr){
+	var hiddenElement = document.getElementById(id);
+	var btn = document.querySelector(whr);
+
+	function handleButtonClick() {
+		hiddenElement.scrollIntoView({block: "center", behavior: "smooth"});
+	}
+	btn.addEventListener('click', handleButtonClick);
+}
+arrow("header",'#arrow')
+arrow("reg_box", "#reg")
+arrow("reg_box", "#reg2")
+</script>
+<script type="text/javascript">
+	var hiddenElementShow = document.querySelectorAll(".dropdown");
+	var x = document.querySelector(".bui")
+
+	for (let i = 0; i < hiddenElementShow.length; i++) {
+		hiddenElementShow[i].addEventListener("click", function() {
+			if (x.style.display = "block") {
+				x.style.display = "none";
+			}else{
+				x.style.display = "block"
+			}
+		});
+	}
+</script>
+<script type="text/javascript">
+	$('.hamburger').click(function(e){
+		e.preventDefault();
+		$(this).toggleClass('is-active');
+	});
+</script>
+</html>

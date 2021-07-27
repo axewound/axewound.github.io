@@ -1,0 +1,21 @@
+$(document).ready(function() {
+  function checkWidth() {
+    var windowWidth = $('body').innerWidth(),
+        elem = $(".number-bullets"); // лучше сохранять объект в переменную, многократно чтобы не насиловать 
+                                    // страницу для поиска нужного элемента
+    if(windowWidth < 480){
+      elem.removeClass('col-xs-12');
+      elem.addClass('col-xs-4');
+    }
+    else{
+      elem.removeClass('col-xs-4');
+      elem.addClass('col-xs-12');
+    }
+  }
+
+  checkWidth(); // проверит при загрузке страницы
+
+  $(window).resize(function(){
+    checkWidth(); // проверит при изменении размера окна клиента
+  });
+});
