@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/684992f13d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.pagepiling.css"/>
+    <script type="text/javascript" src="assets/js/jquery.pagepiling.min.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+
+</head>
+<body>
+<div id="pagepiling">
+    <header class=" section" id="section1">
+        <div class="App-header ">
+            <img class="logo" src="assets/img/logo.svg" alt="">
+            <h2>Find the <span>best place<br>
+            to rest</span> while traveling</h2>
+            <button class="header_button" id="menu"><a href="#page2">Registration</a></button>
+        </div>
+    </header>
+
+    <div class=" body_content section" id="section2">
+        <div class="content ">
+            <h3><span>Sign Up</span> and find the best place to rest while traveling
+            </h3>
+            <div class="registration_form  ">
+                <form name="RegForm" id="signup" class="form">
+                    <div class="container-mdd">
+                        <div class="row ">
+                            <div class="col-12 col-sm-6 wow bounceInUp ">
+                                <div class="form-field">
+                                    <input id="firstname" name="Name" type="text" class="form-control1"
+                                           id="formFirstInput"
+                                           placeholder=" "/>
+                                    <label class="round" for="firstname">First Name</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 wow bounceInUp ">
+                                <div class="form-field">
+                                    <input id="secondname" name="Name" type="text" class="form-control1" placeholder=" "
+                                    >
+                                    <label class="round" for="secondname">Second Name</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 wow bounceInUp ">
+                                <div class="form-field ">
+                                    <i class="fas fa-chevron-down"></i>
+
+                                    <select id="inputState" type="inputState" class="form-control1">
+
+                                        <option disabled selected hidden>
+                                            Country
+                                        </option>
+
+                                        <option data-dialcode="+ 213">Algeria</option>
+                                        <option data-dialcode="+ 376">Andorra</option>
+                                        <option data-dialcode="+ 244">Angola</option>
+                                        <option data-dialcode="+ 1264">Anguilla</option>
+                                        <option data-dialcode="+ 1268">Antigua &amp; Barbuda</option>
+                                        <option data-dialcode="+ 54">Argentina</option>
+                                        <option data-dialcode="+ 374">Armenia</option>
+                                        <option data-dialcode="+ 297">Aruba</option>
+                                        <option data-dialcode="+ 61">Australia</option>
+                                        <option data-dialcode="+ 43">Austria</option>
+                                        <option data-dialcode="+ 994">Azerbaijan</option>
+                                        <option data-dialcode="+ 1242">Bahamas</option>
+                                        <option data-dialcode="+ 973">Bahrain</option>
+                                        <option data-dialcode="+ 880">Bangladesh</option>
+                                        <option data-dialcode="+ 1246">Barbados</option>
+                                        <option data-dialcode="+ 375">Belarus</option>
+                                        <option data-dialcode="+ 32">Belgium</option>
+                                        <option data-dialcode="+ 501">Belize</option>
+                                        <option data-dialcode="+ 229">Benin</option>
+                                        <option data-dialcode="+ 1441">Bermuda</option>
+                                        <option data-dialcode="+ 975">Bhutan</option>
+                                        <option data-dialcode="+ 591">Bolivia</option>
+                                        <option data-dialcode="+ 387">Bosnia Herzegovina</option>
+                                        <option data-dialcode="+ 267">Botswana</option>
+                                        <option data-dialcode="+ 55">Brazil</option>
+                                        <option data-dialcode="+ 673">Brunei</option>
+                                        <option data-dialcode="+ 359">Bulgaria</option>
+                                        <option data-dialcode="+ 226">Burkina Faso</option>
+                                        <option data-dialcode="+ 257">Burundi</option>
+                                        <option data-dialcode="+ 855">Cambodia</option>
+                                        <option data-dialcode="+ 237">Cameroon</option>
+                                        <option data-dialcode="+ 1">Canada
+                                        <option>
+                                        <option data-dialcode="+ 238">Cape Verde Islands</option>
+                                        <option data-dialcode="+ 1345">Cayman Islands</option>
+                                        <option data-dialcode="+ 236">Central African Republic</option>
+                                        <option data-dialcode="+ 56">Chile</option>
+                                        <option data-dialcode="+ 86">China</option>
+                                        <option data-dialcode="+ 57">Colombia</option>
+                                        <option data-dialcode="+ 269">Comoros</option>
+                                        <option data-dialcode="+ 242">Congo</option>
+                                        <option data-dialcode="+ 682">Cook Islands</option>
+                                        <option data-dialcode="+ 506">Costa Rica</option>
+                                        <option data-dialcode="+ 385">Croatia</option>
+                                        <option data-dialcode="+ 53">Cuba</option>
+                                        <option data-dialcode="+ 90392">Cyprus North 2)</option>
+                                        <option data-dialcode="+ 357">Cyprus South</option>
+                                        <option data-dialcode="+ 42">Czech Republic</option>
+                                        <option data-dialcode="+ 45">Denmark</option>
+                                        <option data-dialcode="+ 253">Djibouti</option>
+                                        <option data-dialcode="+ 1809">Dominica</option>
+                                        <option data-dialcode="+ 1809">Dominican Republic</option>
+                                        <option data-dialcode="+ 593">Ecuador</option>
+                                        <option data-dialcode="+ 20">Egypt</option>
+                                        <option data-dialcode="+ 503">El Salvador</option>
+                                        <option data-dialcode="+ 240">Equatorial Guinea</option>
+                                        <option data-dialcode="+ 291">Eritrea</option>
+                                        <option data-dialcode="+ 372">Estonia</option>
+                                        <option data-dialcode="+ 251">Ethiopia</option>
+                                        <option data-dialcode="+ 500">Falkland Islands</option>
+                                        <option data-dialcode="+ 298">Faroe Islands</option>
+                                        <option data-dialcode="+ 679">Fiji</option>
+                                        <option data-dialcode="+ 358">Finland</option>
+                                        <option data-dialcode="+ 33">France</option>
+                                        <option data-dialcode="+ 594">French Guiana</option>
+                                        <option data-dialcode="+ 689">French Polynesia</option>
+                                        <option data-dialcode="+ 241">Gabon</option>
+                                        <option data-dialcode="+ 220">Gambia</option>
+                                        <option data-dialcode="+ 7880">Georgia</option>
+                                        <option data-dialcode="+ 49">Germany</option>
+                                        <option data-dialcode="+ 233">Ghana</option>
+                                        <option data-dialcode="+ 350">Gibraltar</option>
+                                        <option data-dialcode="+ 30">Greece</option>
+                                        <option data-dialcode="+ 299">Greenland</option>
+                                        <option data-dialcode="+ 1473">Grenada</option>
+                                        <option data-dialcode="+ 590">Guadeloupe</option>
+                                        <option data-dialcode="+ 671">Guam</option>
+                                        <option data-dialcode="+ 502">Guatemala</option>
+                                        <option data-dialcode="+ 224">Guinea</option>
+                                        <option data-dialcode="+ 245">Guinea - Bissau</option>
+                                        <option data-dialcode="+ 592">Guyana</option>
+                                        <option data-dialcode="+ 509">Haiti</option>
+                                        <option data-dialcode="+ 504">Honduras</option>
+                                        <option data-dialcode="+ 852">Hong Kong</option>
+                                        <option data-dialcode="+ 36">Hungary</option>
+                                        <option data-dialcode="+ 354">Iceland</option>
+                                        <option data-dialcode="+ 91">India</option>
+                                        <option data-dialcode="+ 62">Indonesia</option>
+                                        <option data-dialcode="+ 98">Iran</option>
+                                        <option data-dialcode="+ 964">Iraq</option>
+                                        <option data-dialcode="+ 353">Ireland</option>
+                                        <option data-dialcode="+ 972">Israel</option>
+                                        <option data-dialcode="+ 39">Italy</option>
+                                        <option data-dialcode="+ 1876">Jamaica</option>
+                                        <option data-dialcode="+ 81">Japan</option>
+                                        <option data-dialcode="+ 962">Jordan</option>
+                                        <option data-dialcode="+ 7">Kazakhstan</option>
+                                        <option data-dialcode="+ 254">Kenya</option>
+                                        <option data-dialcode="+ 686">Kiribati</option>
+                                        <option data-dialcode="+ 850">Korea North</option>
+                                        <option data-dialcode="+ 82">Korea South</option>
+                                        <option data-dialcode="+ 965">Kuwait</option>
+                                        <option data-dialcode="+ 996">Kyrgyzstan</option>
+                                        <option data-dialcode="+ 856">Laos</option>
+                                        <option data-dialcode="+ 371">Latvia</option>
+                                        <option data-dialcode="+ 961">Lebanon</option>
+                                        <option data-dialcode="+ 266">Lesotho</option>
+                                        <option data-dialcode="+ 231">Liberia</option>
+                                        <option data-dialcode="+ 218">Libya</option>
+                                        <option data-dialcode="+ 417">Liechtenstein</option>
+                                        <option data-dialcode="+ 370">Lithuania</option>
+                                        <option data-dialcode="+ 352">Luxembourg</option>
+                                        <option data-dialcode="+ 853">Macao</option>
+                                        <option data-dialcode="+ 389">Macedonia</option>
+                                        <option data-dialcode="+ 261">Madagascar</option>
+                                        <option data-dialcode="+ 265">Malawi</option>
+                                        <option data-dialcode="+ 60">Malaysia</option>
+                                        <option data-dialcode="+ 960">Maldives</option>
+                                        <option data-dialcode="+ 223">Mali</option>
+                                        <option data-dialcode="+ 356">Malta</option>
+                                        <option data-dialcode="+ 692">Marshall Islands</option>
+                                        <option data-dialcode="+ 596">Martinique</option>
+                                        <option data-dialcode="+ 222">Mauritania</option>
+                                        <option data-dialcode="+ 269">Mayotte</option>
+                                        <option data-dialcode="+ 52">Mexico</option>
+                                        <option data-dialcode="+ 691">Micronesia</option>
+                                        <option data-dialcode="+ 373">Moldova</option>
+                                        <option data-dialcode="+ 377">Monaco</option>
+                                        <option data-dialcode="+ 976">Mongolia</option>
+                                        <option data-dialcode="+ 1664">Montserrat</option>
+                                        <option data-dialcode="+ 212">Morocco</option>
+                                        <option data-dialcode="+ 258">Mozambique</option>
+                                        <option data-dialcode="+ 95">Myanmar</option>
+                                        <option data-dialcode="+ 264">Namibia</option>
+                                        <option data-dialcode="+ 674">Nauru</option>
+                                        <option data-dialcode="+ 977">Nepal</option>
+                                        <option data-dialcode="+ 31">Netherlands</option>
+                                        <option data-dialcode="+ 687">New Caledonia</option>
+                                        <option data-dialcode="+ 64">New Zealand</option>
+                                        <option data-dialcode="+ 505">Nicaragua</option>
+                                        <option data-dialcode="+ 227">Niger</option>
+                                        <option data-dialcode="+ 234">Nigeria</option>
+                                        <option data-dialcode="+ 683">Niue</option>
+                                        <option data-dialcode="+ 672">Norfolk Islands</option>
+                                        <option data-dialcode="+ 670">Northern Marianas</option>
+                                        <option data-dialcode="+ 47">Norway</option>
+                                        <option data-dialcode="+ 968">Oman</option>
+                                        <option data-dialcode="+ 680">Palau</option>
+                                        <option data-dialcode="+ 507">Panama</option>
+                                        <option data-dialcode="+ 675">Papua New Guinea</option>
+                                        <option data-dialcode="+ 595">Paraguay</option>
+                                        <option data-dialcode="+ 51">Peru /option>
+                                        <option data-dialcode="+ 63">Philippines</option>
+                                        <option data-dialcode="+ 48">Poland /option>
+                                        <option data-dialcode="+ 351">Portugal</option>
+                                        <option data-dialcode="+ 1787">Puerto Rico</option>
+                                        <option data-dialcode="+ 974">Qatar</option>
+                                        <option data-dialcode="+ 262">Reunion</option>
+                                        <option data-dialcode="+ 40">Romania</option>
+                                        <option data-dialcode="+ 7">Russia</option>
+                                        <option data-dialcode="+ 250">Rwanda</option>
+                                        <option data-dialcode="+ 378">San Marino</option>
+                                        <option data-dialcode="+ 239">Sao Tome &amp; Principe</option>
+                                        <option data-dialcode="+ 966">Saudi Arabia</option>
+                                        <option data-dialcode="+ 221">Senegal</option>
+                                        <option data-dialcode="+ 381">Serbia</option>
+                                        <option data-dialcode="+ 248">Seychelles</option>
+                                        <option data-dialcode="+ 232">Sierra Leone</option>
+                                        <option data-dialcode="+ 65">Singapore</option>
+                                        <option data-dialcode="+ 421">Slovak Republic</option>
+                                        <option data-dialcode="+ 386">Slovenia</option>
+                                        <option data-dialcode="+ 677">Solomon Islands</option>
+                                        <option data-dialcode="+ 252">Somalia</option>
+                                        <option data-dialcode="+ 27">South Africa</option>
+                                        <option data-dialcode="+ 34">Spain</option>
+                                        <option data-dialcode="+ 94">Sri Lanka</option>
+                                        <option data-dialcode="+ 290">St. Helena</option>
+                                        <option data-dialcode="+ 1869">St. Kitts</option>
+                                        <option data-dialcode="+ 1758">St. Lucia</option>
+                                        <option data-dialcode="+ 249">Sudan</option>
+                                        <option data-dialcode="+ 597">Suriname</option>
+                                        <option data-dialcode="+ 268">Swaziland</option>
+                                        <option data-dialcode="+ 46">Sweden</option>
+                                        <option data-dialcode="+ 41">Switzerland</option>
+                                        <option data-dialcode="+ 963">Syria</option>
+                                        <option data-dialcode="+ 886">Taiwan</option>
+                                        <option data-dialcode="+ 7">Tajikstan</option>
+                                        <option data-dialcode="+ 66">Thailand</option>
+                                        <option data-dialcode="+ 228">Togo</option>
+                                        <option data-dialcode="+ 676">Tonga</option>
+                                        <option data-dialcode="+ 1868">Trinidad &amp; Tobago</option>
+                                        <option data-dialcode="+ 216">Tunisia</option>
+                                        <option data-dialcode="+ 90">Turkey</option>
+                                        <option data-dialcode="+ 7">Turkmenistan</option>
+                                        <option data-dialcode="+ 993">Turkmenistan</option>
+                                        <option data-dialcode="+ 1649">Turks &amp; Caicos Islands</option>
+                                        <option data-dialcode="+ 688">Tuvalu</option>
+                                        <option data-dialcode="+ 256">Uganda</option>
+                                        <option data-dialcode="+ 380">Ukraine</option>
+                                        <option data-dialcode="+ 971">United Arab Emirates</option>
+                                        <option data-dialcode="+ 598">Uruguay</option>
+                                        <option data-dialcode="+ 7">Uzbekistan
+                                        <option>
+                                        <option data-dialcode="+ 678">Vanuatu</option>
+                                        <option data-dialcode="+ 379">Vatican City</option>
+                                        <option data-dialcode="+ 58">Venezuela</option>
+                                        <option data-dialcode="+ 84">Vietnam</option>
+                                        <option data-dialcode="+ 84">Virgin Islands - British</option>
+                                        <option data-dialcode="+ 84">Virgin Islands - US</option>
+                                        <option data-dialcode="+ 681">Wallis &amp; Futuna</option>
+                                        <option data-dialcode="+ 969">Yemen (North)</option>
+                                        <option data-dialcode="+ 967">Yemen (South)</option>
+                                        <option data-dialcode="+ 260">Zambia</option>
+                                        <option data-dialcode="+ 263">Zimbabwe</option>
+                                    </select>
+                                    <label class="round" for="phone">Country</label>
+
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 wow bounceInUp ">
+                                <div class="form-field">
+                                    <input class="form-control1" id="phone" type="tel" placeholder=" ">
+                                    <label class="round" for="phone">Phone</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 wow bounceInUp ">
+                                <div class="form-field">
+                                    <input class="form-control1" name="password" id="password" type="password"
+                                           placeholder=" ">
+                                    <label class="round" for="password">Password</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 wow bounceInUp ">
+                                <div class="form-field">
+                                    <input class="form-control1" name="configpassword" id="configpassword"
+                                           type="password"
+                                           placeholder=" ">
+                                    <label class="round" for="configpassword">Confirm password</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 wow bounceInUp ">
+                                <div class="form-field">
+                                    <input id="email" type="email" class="form-control1" id="exampleInputEmail1"
+                                           aria-describedby="emailHelp" placeholder=" ">
+                                    <label class="round" for="exampleInputEmail1">Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 wow bounceInUp ">
+                                <div class="form-check ">
+                                    <label>
+                                        <input type='checkbox' class="form-check-input " id="exampleCheck1"
+                                               placeholder=" ">
+                                        <span class="checkboxChange"></span>
+                                    </label>
+                                    <span>I agree to the <a href="#">Terms &
+                                    Conditions</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="sing_in wow bounceInUp "
+                        >Sign Up
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="footer_info">
+                If you have an account, <a href="#">Log In</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+<script src="assets/js/valid.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("a.scrollto").click(function () {
+            var elementClick = $(this).attr("href")
+            var destination = $(elementClick).offset().top;
+            jQuery("html:not(:animated),body:not(:animated)").animate({
+                scrollTop: destination
+            }, 800);
+            return false;
+        });
+    });
+</script>
+<script>
+
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("a.scrollto").click(function () {
+            var elementClick = $(this).attr("href")
+            var destination = $(elementClick).offset().top;
+            jQuery("html:not(:animated),body:not(:animated)").animate({
+                scrollTop: destination
+            }, 800);
+            return false;
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $("#inputState").click(function () {
+            $(".form-field .fa-chevron-down").toggleClass("rtoate180");
+        });
+
+        $(".fa-chevron-down").click(function () {
+            $(".form-field .fa-chevron-down").toggleClass("rtoate180");
+        });
+        $('#pagepiling').pagepiling({
+                menu: '#menu',
+                anchors: ['page1', 'page2'],
+            }
+        )
+        $("#email, #configpassword, #password, #phone, #inputState, #secondname, #firstname").focus(function () {
+            $(this).next().removeClass("round");
+            $(this).next().addClass("bluebg");
+        })
+        $("#email, #configpassword, #password, #phone, #inputState, #secondname, #firstname").blur(function () {
+            $(this).next().addClass("round");
+        })
+    });
+</script>
+<script>
+    $("#inputState").on("change", function () {
+        $('#phone').val($('option:selected', this).data('dialcode'));
+    });
+</script>
+
+
+</html>

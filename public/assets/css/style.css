@@ -1,0 +1,635 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url("../fonts/Rubik-Medium.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik_Light';
+    src: url("../fonts/Rubik-Light.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+}
+header{
+    overflow: hidden;
+}
+/*
+header {
+    !*
+    background-image: url("../img/img-bgs/bg-1.jpg");
+    *!
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    padding-bottom: 40px;
+}
+
+.App-header {
+    text-align: center;
+    padding: 285px 15px;
+}
+
+.App-header span {
+    color: #6CEEC7;
+}
+
+.App-header h2 {
+    padding-bottom: 40px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 62px;
+    line-height: 73px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.App-header button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    padding: 16px 50px 17px;
+    text-align: center;
+    border: 2px solid #6CEEC7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #6CEEC7;
+    background: rgba(0, 0, 0, 0.0);
+}
+
+.App-header button:hover, .sing_in:hover {
+    transition: 0.3s;
+    background: #6CEEC7;
+    color: #000000;
+    transition: 0.3s;
+}
+
+.content {
+    padding-top: 208px;
+}
+
+.body_content {
+   /* background: url("../img/img-bgs/bg-2.jpg");*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    color: #E0E0E0;
+    position: relative;
+    overflow: hidden;
+    padding: 0 15px;
+}
+
+.container-mdd {
+    width: 630px;
+}
+
+.body_content a, .footer_info a {
+    color: #67D9B7;
+    border-bottom: 1px solid #67D9B7;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.registration_form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control1 {
+    color: #E0E0E0 !important;
+}
+
+.floating-label {
+    font-family: Rubik_Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 23px;
+}
+
+.registration_form input, .form-control1 {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.content h3 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.content h3 span {
+    color: #6CEEC7;
+}
+
+select option {
+    margin: 40px;
+    background: #FFFFFF;
+    color: #5E5E5E;
+    font-family: Rubik_Light;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    border-radius: 50px;
+}
+
+.sing_in {
+    font-size: 19px;
+    line-height: 23px;
+    border: 2px solid #6CEEC7;
+    font-family: Rubik;
+    font-style: normal;
+    max-width: 170px;
+    font-weight: 500;
+    padding: 16px 47px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.2);
+    float: left;
+    color: #6CEEC7;
+}
+
+.footer_info {
+    padding-top: 161px;
+    padding-bottom: 30px;
+    font-family: Rubik_Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.form-check {
+    padding-top: 15px;
+}
+
+.form-group, .form-field {
+    display: flex;
+}
+
+.form-field {
+    width: 300px;
+    flex-direction: column;
+    position: relative;
+}
+
+.form-group {
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 630px;
+}
+
+.form-field {
+    margin-bottom: 30px;
+
+}
+
+.form-control1 {
+    width: 300px;
+    padding: 16px 0 16px 50px !important;
+    border-radius: 5px !important;
+}
+
+.form-group:nth-of-type(2) {
+    padding-left: 30px;
+}
+
+.form {
+    display: flex;
+}
+
+.body_content::before {
+    content: url('../img/bg-forms/section_2-svg_1.svg');
+    position: absolute;
+    z-index: 2;
+    left: -28px;
+    top: 375px;
+    width: 138px;
+    height: 194px;
+}
+
+.body_content:after {
+    content: url('../img/bg-forms/section_2-svg_2.svg');
+    z-index: 2;
+    position: absolute;
+    width: 220px;
+    height: 174px;
+    right: -65px;
+    top: 125px;
+}
+
+.content::after {
+    content: url('../img/bg-forms/section_2-svg_3.svg');
+    z-index: 2;
+    position: absolute;
+    width: 186px;
+    height: 186px;
+    right: 240px;
+    bottom: -27px;
+}
+
+header:before {
+    content: url('../img/bg-forms/section_1-svg_2.svg');
+    position: absolute;
+    z-index: 2;
+    left: -45px;
+    top: 246px;
+    width: 220px;
+    height: 174px;
+}
+
+.App-header::before {
+    content: url('../img/bg-forms/section_1-svg_1.svg');
+    z-index: 2;
+    position: absolute;
+    width: 138px;
+    height: 194px;
+    right: 270px;
+    top: -45px;
+}
+
+.App-header::after {
+    content: url('../img/bg-forms/section_1-svg_3.svg');
+    z-index: 2;
+    position: absolute;
+    width: 138px;
+    height: 194px;
+    right: -15px;
+    bottom: 34px;
+}
+
+select:active {
+    border: 1px solid #67D9B7 !important;
+}
+
+select {
+    appearance: none;
+}
+
+.fa-chevron-down {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 17px;
+    display: block;
+}
+
+.fa-chevron-up {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 17px;
+    display: none !important;
+}
+
+#firstname {
+    background-image: url("../img/icons/first-name_icon.svg");
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+#inputState {
+    background-image: url("../img/icons/country_icon.svg");
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+#password {
+    background-image: url("../img/icons/password_icon.svg");
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+#email {
+    background-image: url("../img/icons/email_icon.svg");
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+#secondname {
+    background-image: url("../img/icons/second-name_icon.svg");
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+#phone {
+    background-image: url("../img/icons/phone_icon.svg");
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+#configpassword {
+    background-image: url("../img/icons/confirm-password_icon.svg");
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+.form-check-input {
+    margin-top: 5px !important;
+}
+
+.modal-open {
+    padding-right: 0 !important;
+}
+
+label input {
+    display: none;
+}
+
+label span {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #67D9B7;
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+[type=checkbox]:checked + span:before {
+    content: url("../img/icons/Vector(Stroke).png");
+    position: absolute;
+    top: -6px;
+    left: 0px;
+    background-color: #67D9B7;
+    width: 18px;
+    height: 28px;
+    border-radius: 2px;
+
+}
+
+.form-check span {
+    position: relative;
+    overflow: hidden;
+}
+
+.timedrpact {
+    position: absolute;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #DA5050;
+    right: 0;
+    bottom: -20px;
+    display: block;
+    transition: 0.3s;
+}
+
+.round {
+    font-family: Rubik_Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 23px;
+    position: absolute;
+    pointer-events: none;
+    top: 18px;
+    left: 50px;
+    transition: 0.2s ease all;
+    color: #E0E0E0;
+
+}
+
+/*.form-field input:focus + label, .form-field input:not(:placeholder-shown) + label {
+    opacity: 1;
+    transform: scale(.9) translateY(-100%) translateX(-10px);
+    top: 20px;
+    left: 56px;
+    color: #67D9B7 !important;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    transition: 0.3s;
+}*/
+.bluebg {
+    opacity: 1;
+    transform: scale(.9) translateY(-100%) translateX(-10px);
+    top: 20px!important;
+    left: 58px!important;
+    color: #67D9B7 !important;
+    font-weight: 300!important;
+    font-size: 11px!important;
+    line-height: 13px!important;
+    transition: 0.3s!important;
+    position: absolute;
+}
+.form-control1 {
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 23px;
+}
+
+.form-field input {
+    width: 100%;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+.form-check {
+    float: left;
+    padding-left: 0 !important;
+    display: flex;
+}
+
+.form-check span {
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+.fa-chevron-down {
+    transition: 0.30s;
+}
+
+.rtoate180 {
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+
+.form-field label, .form-field input {
+    transition: all 0.2s;
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: 0.3s;
+}
+
+@media (min-width: 360px) and (max-width: 576px) {
+    .App-header h2 {
+        font-size: 30px;
+        line-height: 36px;
+        padding-bottom: 20px;
+    }
+    .App-header {
+        padding-top: 236px;
+        padding-bottom: 236px;
+    }
+    .header_button {
+        width: 100%;
+    }
+    .logo {
+        max-width: 120px;
+        padding-bottom: 20px;
+    }
+    .App-header::before {
+        content: url('../img/bg-forms/section_1-svg_1_mini.svg');
+        z-index: 2;
+        position: absolute;
+        width: 67px;
+        height: 67px;
+        left: -23px;
+        top: 8px;
+    }
+    header:before {
+        display: none;
+    }
+    h2:before {
+        content: url('../img/bg-forms/section_1-svg_2_mini.svg');
+        position: absolute;
+        z-index: 2;
+        right: -15px;
+        top: 197px;
+        width: 62px;
+        height: 62px;
+    }
+    .App-header::after {
+        content: url('../img/bg-forms/section_1-svg_3_mini.svg');
+        z-index: 2;
+        position: absolute;
+        width: 74px;
+        height: 74px;
+        left: -12px;
+        top: 560px;
+    }
+    .body_content::before {
+        content: url('../img/bg-forms/section_2-svg_1_mini.svg');
+        position: absolute;
+        z-index: 2;
+        z-index: 2;
+        left: -20px;
+        top: 270px;
+        width: 67px;
+        height: 67px;
+    }
+    .form-control1 {
+        width: 100%;
+    }
+    .body_content:after {
+        content: url('../img/bg-forms/section_2-svg_2_mini.svg');
+        z-index: 2;
+        position: absolute;
+        width: 72px;
+        height: 72px;
+        right: -20px;
+        top: -3px;
+    }
+
+    .content::after {
+        content: url('../img/bg-forms/section_2-svg_3_mini.svg');
+        z-index: 2;
+        position: absolute;
+        width: 85px;
+        height: 85px;
+        right: -25px;
+        bottom: -15px;
+    }
+
+    .form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form-group:nth-of-type(2) {
+        padding-left: 0px;
+    }
+
+    .form-field {
+        width: auto;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .container-mdd {
+        width: auto
+    }
+
+    .sing_in {
+        max-width: none;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .form-check {
+        float: left;
+        padding-top: 5px;
+    }
+
+    .form-check-label {
+        margin-left: 0px !important;
+    }
+
+    .footer_info {
+        padding-bottom: 70px;
+    }
+
+    
+}
+
+.section{
+    text-align:center;
+}
+
+
+/* Backgrounds will cover all the section
+* --------------------------------------- */
+#section1,
+#section2,
+#section3{
+    background-size: cover;
+}
+
+/* Defining each section background and styles
+* --------------------------------------- */
+
+#section1{
+    background-image: url("../img/img-bgs/bg-1.jpg");
+}
+#section2{
+    background-image: url( "../img/img-bgs/bg-2.jpg");
+}
+
+
